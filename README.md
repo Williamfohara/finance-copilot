@@ -26,6 +26,7 @@ STACK
 - python-pptx for PowerPoint export
 
 LOCAL DEVELOPMENT SETUP
+
 Step 1: Clone the repo
   - git clone https://github.com/YOUR_USERNAME/finance-copilot.git
   - cd finance-copilot
