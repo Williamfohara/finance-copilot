@@ -1,1 +1,1 @@
-# finance-copilot
+# Finance Copilot
