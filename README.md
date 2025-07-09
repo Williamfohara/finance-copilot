@@ -5,7 +5,7 @@ Connect an ERP in 10 min, ask in plain English, and get CFO-grade answers, chart
 
 ## Feature roadmap
 - 🔄 OAuth connectors (QuickBooks today, NetSuite CSV mock)
-- �� NL → SQL chain with transparent SQL + fix editor
+- 💬 NL → SQL chain with transparent SQL + fix editor
 - 📊 Variance analysis + GPT narrative + matplotlib chart
 - 📈 Scenario planner & Monte-Carlo sims
 - 📥 Export: pandas → pptx / xlsx
