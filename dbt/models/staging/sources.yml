@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: qbo_raw # 👈 This name must match the one used in your stg_*.sql files
+    schema: main
+    tables:
+      - name: qbo_account_list
+        external:
+          location: "clean_data/qbo_account_list.csv"
+          format: csv
+          options:
+            header: true
+      - name: qbo_balance_sheet
+        external:
+          location: "clean_data/qbo_balance_sheet.csv"
+          format: csv
+          options:
+            header: true
+      - name: qbo_general_ledger
+        external:
+          location: "clean_data/qbo_general_ledger.csv"
+          format: csv
+          options:
+            header: true
+      - name: qbo_pl
+        external:
+          location: "clean_data/qbo_pl.csv"
+          format: csv
+          options:
+            header: true

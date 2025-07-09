@@ -1,0 +1,48 @@
+account,parent_account,date,transaction_type,num,name,memo_description,split,amount,balance
+Checking,,,Beginning Balance,,,,,,1201.0
+Savings,,,Beginning Balance,,,,,,800.0
+Accounts Receivable (A/R),,,Beginning Balance,,,,,,5281.52
+Inventory Asset,,,Beginning Balance,,,,,,596.25
+Undeposited Funds,,,Beginning Balance,,,,,,2062.52
+Original Cost,,,Beginning Balance,,,,,,13495.0
+Accounts Payable (A/P),,,Beginning Balance,,,,,,1602.67
+Mastercard,,,Beginning Balance,,,,,,123.72
+Mastercard,,2025-07-08,Credit Card Expense,,,,Automobile,34.0,157.72
+Board of Equalization Payable,,,Beginning Balance,,,,,,370.94
+Loan Payable,,,Beginning Balance,,,,,,4000.0
+Notes Payable,,,Beginning Balance,,,,,,25000.0
+Opening Balance Equity,,,Beginning Balance,,,,,,-9337.5
+Design income,,,Beginning Balance,,,,,,2250.0
+Discounts given,,,Beginning Balance,,,,,,-89.5
+Landscaping Services,,,Beginning Balance,,,,,,1477.5
+Fountains and Garden Lighting,,,Beginning Balance,,,,,,2246.5
+Plants and Soil,,,Beginning Balance,,,,,,2351.97
+Sprinklers and Drip Systems,,,Beginning Balance,,,,,,138.0
+Installation,,,Beginning Balance,,,,,,250.0
+Maintenance and Repair,,,Beginning Balance,,,,,,50.0
+Pest Control Services,,,Beginning Balance,,,,,,110.0
+Sales of Product Income,,,Beginning Balance,,,,,,912.75
+Services,,,Beginning Balance,,,,,,503.55
+Cost of Goods Sold,,,Beginning Balance,,,,,,405.0
+Advertising,,,Beginning Balance,,,,,,74.86
+Automobile,,,Beginning Balance,,,,,,79.96
+Automobile,,2025-07-08,Credit Card Expense,,,,Mastercard,34.0,113.96
+Fuel,,,Beginning Balance,,,,,,349.41
+Equipment Rental,,,Beginning Balance,,,,,,112.0
+Insurance,,,Beginning Balance,,,,,,241.23
+Job Expenses,,,Beginning Balance,,,,,,155.07
+Decks and Patios,,,Beginning Balance,,,,,,234.04
+Plants and Soil,,,Beginning Balance,,,,,,353.12
+Sprinklers and Drip Systems,,,Beginning Balance,,,,,,215.66
+Legal & Professional Fees,,,Beginning Balance,,,,,,75.0
+Accounting,,,Beginning Balance,,,,,,640.0
+Bookkeeper,,,Beginning Balance,,,,,,55.0
+Lawyer,,,Beginning Balance,,,,,,400.0
+Maintenance and Repair,,,Beginning Balance,,,,,,185.0
+Equipment Repairs,,,Beginning Balance,,,,,,755.0
+Meals and Entertainment,,,Beginning Balance,,,,,,28.49
+Office Expenses,,,Beginning Balance,,,,,,18.08
+Rent or Lease,,,Beginning Balance,,,,,,900.0
+Gas and Electric,,,Beginning Balance,,,,,,200.53
+Telephone,,,Beginning Balance,,,,,,130.86
+Miscellaneous,,,Beginning Balance,,,,,,2916.0

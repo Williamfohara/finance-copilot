@@ -1,0 +1,16 @@
+section,category,subcategory,account,balance
+ASSETS,Current Assets,Bank Accounts,Checking,1201.0
+ASSETS,Current Assets,Bank Accounts,Savings,800.0
+ASSETS,Current Assets,Accounts Receivable,Accounts Receivable (A/R),5281.52
+ASSETS,Current Assets,Other Current Assets,Inventory Asset,596.25
+ASSETS,Current Assets,Other Current Assets,Undeposited Funds,2062.52
+ASSETS,Fixed Assets,Truck,Original Cost,13495.0
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Accounts Payable (A/P),1602.67
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Accounts Payable,1602.67
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Mastercard,157.72
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Credit Cards,157.72
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Arizona Dept. of Revenue Payable,0.0
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Board of Equalization Payable,370.94
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Loan Payable,4000.0
+LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Other Current Liabilities,4370.94
+LIABILITIES AND EQUITY,Liabilities,Long-Term Liabilities,Notes Payable,25000.0

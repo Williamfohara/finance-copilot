@@ -1,0 +1,89 @@
+account_id,account,parent_account,sub_account,type,detail_type,balance
+68,Savings,,Savings,Bank,Savings,800.0
+1,Accounts Receivable (A/R),,Accounts Receivable (A/R),Accounts receivable,Accounts Receivable (A/R),5281.52
+21,Inventory Asset,,Inventory Asset,Other Current Assets,Inventory,596.25
+61,Prepaid Expenses,,Prepaid Expenses,Other Current Assets,Prepaid Expenses,0.0
+80,Uncategorized Asset,,Uncategorized Asset,Other Current Assets,Other Current Assets,0.0
+83,Undeposited Funds,,Undeposited Funds,Other Current Assets,Undeposited Funds,2062.52
+75,Truck,,Truck,Fixed Assets,Vehicles,13495.0
+76,Truck:Depreciation,Truck,Depreciation,Fixed Assets,Accumulated Depreciation,0.0
+77,Truck:Original Cost,Truck,Original Cost,Fixed Assets,Vehicles,13495.0
+0,Accounts Payable (A/P),,Accounts Payable (A/P),Accounts payable,Accounts Payable (A/P),-1602.67
+51,Mastercard,,Mastercard,Credit Card,Credit Card,-157.72
+87,Visa,,Visa,Credit Card,Credit Card,0.0
+3,Arizona Dept. of Revenue Payable,,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,0.0
+8,Board of Equalization Payable,,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,-370.94
+46,Loan Payable,,Loan Payable,Other Current Liabilities,Other Current Liabilities,-4000.0
+54,Notes Payable,,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,-25000.0
+56,Opening Balance Equity,,Opening Balance Equity,Equity,Opening Balance Equity,9337.5
+66,Retained Earnings,,Retained Earnings,Equity,Retained Earnings,0.0
+7,Billable Expense Income,,Billable Expense Income,Income,Service/Fee Income,
+12,Design income,,Design income,Income,Other Primary Income,
+13,Discounts given,,Discounts given,Income,Discounts/Refunds Given,
+17,Fees Billed,,Fees Billed,Income,Service/Fee Income,
+33,Landscaping Services,,Landscaping Services,Income,Other Primary Income,
+34,Landscaping Services:Job Materials,Landscaping Services,Job Materials,Income,Other Primary Income,
+35,Landscaping Services:Job Materials:Decks and Patios,Landscaping Services,Job Materials:Decks and Patios,Income,Other Primary Income,
+36,Landscaping Services:Job Materials:Fountains and Garden Lighting,Landscaping Services,Job Materials:Fountains and Garden Lighting,Income,Other Primary Income,
+37,Landscaping Services:Job Materials:Plants and Soil,Landscaping Services,Job Materials:Plants and Soil,Income,Other Primary Income,
+38,Landscaping Services:Job Materials:Sprinklers and Drip Systems,Landscaping Services,Job Materials:Sprinklers and Drip Systems,Income,Other Primary Income,
+39,Landscaping Services:Labor,Landscaping Services,Labor,Income,Other Primary Income,
+40,Landscaping Services:Labor:Installation,Landscaping Services,Labor:Installation,Income,Other Primary Income,
+41,Landscaping Services:Labor:Maintenance and Repair,Landscaping Services,Labor:Maintenance and Repair,Income,Other Primary Income,
+57,Other Income,,Other Income,Income,Other Primary Income,
+60,Pest Control Services,,Pest Control Services,Income,Other Primary Income,
+64,Refunds-Allowances,,Refunds-Allowances,Income,Discounts/Refunds Given,
+67,Sales of Product Income,,Sales of Product Income,Income,Sales of Product Income,
+69,Services,,Services,Income,Service/Fee Income,
+79,Unapplied Cash Payment Income,,Unapplied Cash Payment Income,Income,Unapplied Cash Payment Income,
+82,Uncategorized Income,,Uncategorized Income,Income,Service/Fee Income,
+10,Cost of Goods Sold,,Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,
+2,Advertising,,Advertising,Expenses,Advertising/Promotional,
+4,Automobile,,Automobile,Expenses,Auto,
+5,Automobile:Fuel,Automobile,Fuel,Expenses,Auto,
+6,Bank Charges,,Bank Charges,Expenses,Bank Charges,
+9,Commissions & fees,,Commissions & fees,Expenses,Other Miscellaneous Service Cost,
+14,Disposal Fees,,Disposal Fees,Expenses,Other Miscellaneous Service Cost,
+15,Dues & Subscriptions,,Dues & Subscriptions,Expenses,Dues & subscriptions,
+16,Equipment Rental,,Equipment Rental,Expenses,Equipment Rental,
+18,Insurance,,Insurance,Expenses,Insurance,
+19,Insurance:Workers Compensation,Insurance,Workers Compensation,Expenses,Insurance,
+22,Job Expenses,,Job Expenses,Expenses,Other Miscellaneous Service Cost,
+23,Job Expenses:Cost of Labor,Job Expenses,Cost of Labor,Expenses,Other Miscellaneous Service Cost,
+24,Job Expenses:Cost of Labor:Installation,Job Expenses,Cost of Labor:Installation,Expenses,Other Miscellaneous Service Cost,
+25,Job Expenses:Cost of Labor:Maintenance and Repairs,Job Expenses,Cost of Labor:Maintenance and Repairs,Expenses,Other Miscellaneous Service Cost,
+26,Job Expenses:Equipment Rental,Job Expenses,Equipment Rental,Expenses,Equipment Rental,
+27,Job Expenses:Job Materials,Job Expenses,Job Materials,Expenses,Supplies & Materials,
+28,Job Expenses:Job Materials:Decks and Patios,Job Expenses,Job Materials:Decks and Patios,Expenses,Supplies & Materials,
+29,Job Expenses:Job Materials:Fountain and Garden Lighting,Job Expenses,Job Materials:Fountain and Garden Lighting,Expenses,Supplies & Materials,
+30,Job Expenses:Job Materials:Plants and Soil,Job Expenses,Job Materials:Plants and Soil,Expenses,Supplies & Materials,
+31,Job Expenses:Job Materials:Sprinklers and Drip Systems,Job Expenses,Job Materials:Sprinklers and Drip Systems,Expenses,Supplies & Materials,
+32,Job Expenses:Permits,Job Expenses,Permits,Expenses,Other Miscellaneous Service Cost,
+42,Legal & Professional Fees,,Legal & Professional Fees,Expenses,Legal & Professional Fees,
+43,Legal & Professional Fees:Accounting,Legal & Professional Fees,Accounting,Expenses,Legal & Professional Fees,
+44,Legal & Professional Fees:Bookkeeper,Legal & Professional Fees,Bookkeeper,Expenses,Legal & Professional Fees,
+45,Legal & Professional Fees:Lawyer,Legal & Professional Fees,Lawyer,Expenses,Legal & Professional Fees,
+47,Maintenance and Repair,,Maintenance and Repair,Expenses,Repair & Maintenance,
+48,Maintenance and Repair:Building Repairs,Maintenance and Repair,Building Repairs,Expenses,Repair & Maintenance,
+49,Maintenance and Repair:Computer Repairs,Maintenance and Repair,Computer Repairs,Expenses,Repair & Maintenance,
+50,Maintenance and Repair:Equipment Repairs,Maintenance and Repair,Equipment Repairs,Expenses,Repair & Maintenance,
+52,Meals and Entertainment,,Meals and Entertainment,Expenses,Entertainment Meals,
+55,Office Expenses,,Office Expenses,Expenses,Office/General Administrative Expenses,
+62,Promotional,,Promotional,Expenses,Advertising/Promotional,
+63,Purchases,,Purchases,Expenses,Supplies & Materials,
+65,Rent or Lease,,Rent or Lease,Expenses,Rent or Lease of Buildings,
+70,Stationery & Printing,,Stationery & Printing,Expenses,Office/General Administrative Expenses,
+71,Supplies,,Supplies,Expenses,Supplies & Materials,
+72,Taxes & Licenses,,Taxes & Licenses,Expenses,Taxes Paid,
+73,Travel,,Travel,Expenses,Travel,
+74,Travel Meals,,Travel Meals,Expenses,Travel Meals,
+78,Unapplied Cash Bill Payment Expense,,Unapplied Cash Bill Payment Expense,Expenses,Unapplied Cash Bill Payment Expense,
+81,Uncategorized Expense,,Uncategorized Expense,Expenses,Other Miscellaneous Service Cost,
+84,Utilities,,Utilities,Expenses,Utilities,
+85,Utilities:Gas and Electric,Utilities,Gas and Electric,Expenses,Utilities,
+86,Utilities:Telephone,Utilities,Telephone,Expenses,Utilities,
+20,Interest Earned,,Interest Earned,Other Income,Interest Earned,
+58,Other Portfolio Income,,Other Portfolio Income,Other Income,Other Miscellaneous Income,
+11,Depreciation,,Depreciation,Other Expense,Depreciation,
+53,Miscellaneous,,Miscellaneous,Other Expense,Other Miscellaneous Expense,
+59,Penalties & Settlements,,Penalties & Settlements,Other Expense,Penalties & Settlements,
