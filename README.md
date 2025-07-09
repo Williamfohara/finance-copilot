@@ -3,6 +3,7 @@ Finance Copilot
 SUMMARY
 Connect an ERP in 10 minutes, ask questions in plain English, and get CFO-grade answers, charts, and PowerPoint exports.
 
+<<<<<<< Updated upstream
 FEATURES AND ROADMAP
 - OAuth connectors (QuickBooks Online Sandbox today, NetSuite CSV mock in progress)
 - Natural Language to SQL pipeline with transparent SQL output and manual fix editor
@@ -47,3 +48,29 @@ Step 4: Add environment variables
 
 Step 5: Run the app
 - python main.py 
+=======
+## Feature roadmap
+
+- 🔄 OAuth connectors (QuickBooks today, NetSuite CSV mock)
+- 💬 NL → SQL chain with transparent SQL + fix editor
+- 📊 Variance analysis + GPT narrative + matplotlib chart
+- 📈 Scenario planner & Monte-Carlo sims
+- 📥 Export: pandas → pptx / xlsx
+
+## Tech stack
+
+DuckDB · dbt Core · LangChain · OpenAI gpt-4o · FastAPI · Streamlit · python-pptx
+
+## Local setup
+
+```bash
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt        # or: poetry install
+cp .env.example .env                   # then add keys
+python main.py
+```
+
+## License
+
+MIT
+>>>>>>> Stashed changes
