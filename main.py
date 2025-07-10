@@ -3,11 +3,10 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from langchain.chains import create_sql_query_chain
 from langchain_community.utilities import SQLDatabase
-from langchain_openai import ChatOpenAI
 from openai import OpenAI
 
+from prompts.sql_chain import create_custom_sql_chain  # ✅ custom SQL chain
 from qb import get_profit_and_loss, summarize_financials
 
 # Load env vars
@@ -47,7 +46,6 @@ Can you explain the business performance in plain English as if you're a CFO bri
 
 app = FastAPI()
 
-# Enable CORS (if you’ll connect frontend later)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -56,22 +54,32 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load LangChain tools
-llm = ChatOpenAI(model=openai_model, temperature=0)
-db = SQLDatabase.from_uri("duckdb:///duckdb_finance.duckdb")
-chain = create_sql_query_chain(llm, db)
+# ✅ Custom chain using only allowed tables + examples
+db_path = "duckdb_finance.duckdb"
+db = SQLDatabase.from_uri(f"duckdb:///{db_path}")
+chain = create_custom_sql_chain(openai_model=openai_model, db_path=db_path)
 
 
 @app.get("/query")
-def query(request: Request, question: str = None):
-    """Return generated SQL and result for a finance question."""
-    if question is None:
-        return {"error": "Missing required query parameter: question"}
+def query_endpoint(
+    request: Request, query: str = None
+):  # renamed function and param to avoid collision
+    if query is None:
+        return {"error": "Missing required query parameter: query"}
 
     try:
-        sql = chain.invoke({"question": question})
-        result = db.run(sql)
-        return {"question": question, "generated_sql": sql, "result": result}
+        response = chain.invoke({"query": query})  # match input key for chain
+        raw_sql = response["intermediate_steps"][0]
+
+        print("\n🔍 RAW SQL FROM CHAIN:\n", raw_sql)
+
+        result = db.run(raw_sql)
+
+        return {
+            "query": query,
+            "generated_sql": raw_sql,
+            "result": result,
+        }
     except Exception as e:
         return {"error": str(e)}
 

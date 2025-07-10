@@ -1,11 +1,25 @@
+import requests
 import streamlit as st
 
-st.title("Finance Copilot")
-st.write("This is a placeholder Streamlit UI for Finance Copilot.")
+st.title("🧠 Finance Copilot")
+st.write("Ask finance questions in plain English — get SQL + answers.")
 
-# You can later connect this to your analysis or prompt pipeline
-query = st.text_input("Ask a question about your finances:")
+query = st.text_input("🔍 Ask a question about your finances:")
 
 if query:
-    st.write(f"⚙️ You asked: {query}")
-    st.write("✅ Response: (This is where GPT + data output will appear.)")
+    with st.spinner("Contacting GPT Copilot..."):
+        try:
+            # Send the query to your FastAPI backend
+            response = requests.get("http://localhost:8000/query", params={"query": query})
+            data = response.json()
+
+            if "error" in data:
+                st.error(f"❌ Error: {data['error']}")
+            else:
+                st.success("✅ Answer received!")
+                st.code(data["generated_sql"], language="sql")
+                st.dataframe(data["result"])
+        except Exception as e:
+            st.error(f"⚠️ Request failed: {e}")
+
+print("👉 Sending GET request with params:", {"query": query})

@@ -35,13 +35,7 @@ for _, row in df_raw.iterrows():
 
     # Attempt to parse a data row
     try:
-        amount = (
-            value.replace("$", "")
-            .replace(",", "")
-            .replace("(", "-")
-            .replace(")", "")
-            .strip()
-        )
+        amount = value.replace("$", "").replace(",", "").replace("(", "-").replace(")", "").strip()
         amount = float(amount)
         records.append({"section": current_section, "account": label, "amount": amount})
     except ValueError:

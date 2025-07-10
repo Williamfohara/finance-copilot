@@ -19,11 +19,7 @@ for _, row in df_raw.iterrows():
     indent_level = len(label_raw) - len(label_raw.lstrip())
 
     # Skip header/footer
-    if (
-        label.startswith("Sandbox")
-        or label.startswith("Balance Sheet")
-        or "Basis" in label
-    ):
+    if label.startswith("Sandbox") or label.startswith("Balance Sheet") or "Basis" in label:
         continue
     if label == "" and value == "":
         continue
