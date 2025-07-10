@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: qbo_raw # 👈 This name must match the one used in your stg_*.sql files
+  - name: qbo_raw # 👈 Must match the name in your dbt models
     schema: main
     tables:
       - name: qbo_account_list
@@ -28,3 +28,23 @@ sources:
           format: csv
           options:
             header: true
+
+models:
+  - name: stg_account_list
+    columns:
+      - name: account_name
+        tests: [not_null]
+      - name: balance
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["0", "1", "2"]
+              config:
+                severity: warn
+
+  - name: stg_general_ledger
+    columns:
+      - name: txn_date
+        tests: [not_null]
+      - name: amount
+        tests: [not_null]

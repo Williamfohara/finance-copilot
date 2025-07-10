@@ -14,16 +14,18 @@ for _, row in df_raw.iterrows():
     value = str(row[1]).strip() if pd.notnull(row[1]) else ""
 
     # Skip metadata and footers
-    if any([
-        "Sandbox" in label,
-        "Profit and Loss" in label,
-        "Accrual Basis" in label,
-        label == "" and value == "",
-    ]):
+    if any(
+        [
+            "Sandbox" in label,
+            "Profit and Loss" in label,
+            "Accrual Basis" in label,
+            label == "" and value == "",
+        ]
+    ):
         continue
 
     # Detect section headers
-    if value == "" and label.endswith(":") == False and label.isalpha():
+    if value == "" and not label.endswith(":") and label.isalpha():
         current_section = label
         continue
 
@@ -33,15 +35,17 @@ for _, row in df_raw.iterrows():
 
     # Attempt to parse a data row
     try:
-        amount = value.replace("$", "").replace(",", "").replace("(", "-").replace(")", "").strip()
+        amount = (
+            value.replace("$", "")
+            .replace(",", "")
+            .replace("(", "-")
+            .replace(")", "")
+            .strip()
+        )
         amount = float(amount)
-        records.append({
-            "section": current_section,
-            "account": label,
-            "amount": amount
-        })
-    except:
-        continue  # skip malformed rows
+        records.append({"section": current_section, "account": label, "amount": amount})
+    except ValueError:
+        continue
 
 # --- Step 3: To clean DataFrame ---
 df_cleaned = pd.DataFrame(records)

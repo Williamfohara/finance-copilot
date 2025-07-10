@@ -4,24 +4,24 @@ Account List,,,,,
 ,,,,,
 ,Account,Type,Detail type,Description,Balance
 ,Checking,Bank,Checking,,"1,201.00  "
-,Savings,Bank,Savings,,800.00  
+,Savings,Bank,Savings,,800.00
 ,Accounts Receivable (A/R),Accounts receivable (A/R),Accounts Receivable (A/R),,"5,281.52  "
-,Inventory Asset,Other Current Assets,Inventory,,596.25  
-,Prepaid Expenses,Other Current Assets,Prepaid Expenses,,0.00  
-,Uncategorized Asset,Other Current Assets,Other Current Assets,,0.00  
+,Inventory Asset,Other Current Assets,Inventory,,596.25
+,Prepaid Expenses,Other Current Assets,Prepaid Expenses,,0.00
+,Uncategorized Asset,Other Current Assets,Other Current Assets,,0.00
 ,Undeposited Funds,Other Current Assets,Undeposited Funds,,"2,062.52  "
 ,Truck,Fixed Assets,Vehicles,,"13,495.00  "
-,Truck:Depreciation,Fixed Assets,Accumulated Depreciation,,0.00  
+,Truck:Depreciation,Fixed Assets,Accumulated Depreciation,,0.00
 ,Truck:Original Cost,Fixed Assets,Vehicles,,"13,495.00  "
 ,Accounts Payable (A/P),Accounts payable (A/P),Accounts Payable (A/P),,"-1,602.67  "
-,Mastercard,Credit Card,Credit Card,,-157.72  
-,Visa,Credit Card,Credit Card,,0.00  
-,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,,0.00  
-,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,,-370.94  
+,Mastercard,Credit Card,Credit Card,,-157.72
+,Visa,Credit Card,Credit Card,,0.00
+,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,,0.00
+,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,,-370.94
 ,Loan Payable,Other Current Liabilities,Other Current Liabilities,,"-4,000.00  "
 ,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,,"-25,000.00  "
 ,Opening Balance Equity,Equity,Opening Balance Equity,,"9,337.50  "
-,Retained Earnings,Equity,Retained Earnings,,0.00  
+,Retained Earnings,Equity,Retained Earnings,,0.00
 ,Billable Expense Income,Income,Service/Fee Income,,
 ,Design income,Income,Other Primary Income,,
 ,Discounts given,Income,Discounts/Refunds Given,,

@@ -3,6 +3,7 @@ import duckdb
 
 DB_PATH = "data/duckdb_finance.duckdb"
 
+
 def main():
     con = duckdb.connect(DB_PATH)
 
@@ -19,6 +20,7 @@ def main():
             print(f"     {col[0]} ({col[1]})")
 
     con.close()
+
 
 if __name__ == "__main__":
     main()

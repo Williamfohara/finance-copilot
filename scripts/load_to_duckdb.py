@@ -11,10 +11,12 @@ tables = {
 }
 
 for table, path in tables.items():
-    con.execute(f"""
+    con.execute(
+        f"""
         CREATE OR REPLACE TABLE {table} AS
         SELECT * FROM read_csv_auto('{path}', header=True)
-    """)
+    """
+    )
     print(f"✅ Loaded {table}")
 
 con.close()

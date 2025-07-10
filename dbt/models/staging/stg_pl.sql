@@ -1,12 +1,11 @@
--- dbt/models/staging/stg_pl.sql
-
 {{ config(materialized='view') }}
 
 with source as (
-    select * from {{ source('qbo_raw', 'qbo_pl') }}
+    select *
+    from {{ source('qbo_raw', 'qbo_pl') }}
 ),
 
-cleaned as (
+renamed as (
     select
         section,
         account,
@@ -15,4 +14,4 @@ cleaned as (
     where account is not null
 )
 
-select * from cleaned
+select * from renamed

@@ -7,13 +7,13 @@ ASSETS,
    Current Assets,
       Bank Accounts,
          Checking,"1,201.00  "
-         Savings,800.00  
+         Savings,800.00
       Total Bank Accounts,"$ 2,001.00  "
       Accounts Receivable,
          Accounts Receivable (A/R),"5,281.52  "
       Total Accounts Receivable,"$ 5,281.52  "
       Other Current Assets,
-         Inventory Asset,596.25  
+         Inventory Asset,596.25
          Undeposited Funds,"2,062.52  "
       Total Other Current Assets,"$ 2,658.77  "
    Total Current Assets,"$ 9,941.29  "
@@ -30,11 +30,11 @@ LIABILITIES AND EQUITY,
             Accounts Payable (A/P),"1,602.67  "
          Total Accounts Payable,"$ 1,602.67  "
          Credit Cards,
-            Mastercard,157.72  
-         Total Credit Cards,$ 157.72  
+            Mastercard,157.72
+         Total Credit Cards,$ 157.72
          Other Current Liabilities,
-            Arizona Dept. of Revenue Payable,0.00  
-            Board of Equalization Payable,370.94  
+            Arizona Dept. of Revenue Payable,0.00
+            Board of Equalization Payable,370.94
             Loan Payable,"4,000.00  "
          Total Other Current Liabilities,"$ 4,370.94  "
       Total Current Liabilities,"$ 6,131.33  "

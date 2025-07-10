@@ -1,24 +1,20 @@
--- dbt/models/staging/stg_general_ledger.sql
-
 {{ config(materialized='view') }}
 
 with source as (
-    select * from {{ source('qbo_raw', 'qbo_general_ledger') }}
+    select *
+    from {{ source('qbo_raw', 'qbo_general_ledger') }}
 ),
 
 renamed as (
     select
+        txn_date,
         account,
-        parent_account,
-        try_cast(date as date) as txn_date,
-        transaction_type,
-        num,
+        description,
+        memo,
         name,
-        memo_description,
-        split,
-        try_cast(amount as double) as amount,
-        try_cast(balance as double) as balance
+        amount::double as amount  -- or try_cast(amount as double)
     from source
+    where account is not null and is_active = true
 )
 
 select * from renamed

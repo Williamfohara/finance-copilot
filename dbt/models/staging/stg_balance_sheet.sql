@@ -1,9 +1,8 @@
--- dbt/models/staging/stg_balance_sheet.sql
-
 {{ config(materialized='view') }}
 
 with source as (
-    select * from {{ source('qbo_raw', 'qbo_balance_sheet') }}
+    select *
+    from {{ source('qbo_raw', 'qbo_balance_sheet') }}
 ),
 
 renamed as (

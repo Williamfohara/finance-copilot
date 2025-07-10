@@ -18,7 +18,8 @@ for _, row in df_raw.iterrows():
         or "sandbox" in cells[0].lower()
         or "basis" in cells[0].lower()
         or "july" in cells[0].lower()
-        or cells[0] == "" and all(c == "" for c in cells[1:])
+        or cells[0] == ""
+        and all(c == "" for c in cells[1:])
     ):
         continue
 
@@ -39,7 +40,11 @@ for _, row in df_raw.iterrows():
         record = {
             "account": current_account,
             "parent_account": None,  # ✅ placeholder for future enrichment
-            "date": pd.to_datetime(cells[1], errors="coerce").date() if is_transaction else None,
+            "date": (
+                pd.to_datetime(cells[1], errors="coerce").date()
+                if is_transaction
+                else None
+            ),
             "transaction_type": cells[2] if is_transaction else "Beginning Balance",
             "num": cells[3] if is_transaction else None,
             "name": cells[4] if is_transaction else None,
@@ -59,7 +64,9 @@ for _, row in df_raw.iterrows():
 
         # Clean balance
         if len(cells) > 8:
-            bal_raw = cells[8].replace(",", "").replace("(", "-").replace(")", "").strip()
+            bal_raw = (
+                cells[8].replace(",", "").replace("(", "-").replace(")", "").strip()
+            )
             if bal_raw:
                 try:
                     record["balance"] = float(bal_raw)

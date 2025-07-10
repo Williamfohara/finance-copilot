@@ -19,7 +19,11 @@ for _, row in df_raw.iterrows():
     indent_level = len(label_raw) - len(label_raw.lstrip())
 
     # Skip header/footer
-    if label.startswith("Sandbox") or label.startswith("Balance Sheet") or "Basis" in label:
+    if (
+        label.startswith("Sandbox")
+        or label.startswith("Balance Sheet")
+        or "Basis" in label
+    ):
         continue
     if label == "" and value == "":
         continue
@@ -43,13 +47,15 @@ for _, row in df_raw.iterrows():
         except ValueError:
             continue
 
-        records.append({
-            "section": section,
-            "category": category,
-            "subcategory": subcategory,
-            "account": label,
-            "balance": balance
-        })
+        records.append(
+            {
+                "section": section,
+                "category": category,
+                "subcategory": subcategory,
+                "account": label,
+                "balance": balance,
+            }
+        )
 
 # --- Step 3: DataFrame ---
 df_cleaned = pd.DataFrame(records)

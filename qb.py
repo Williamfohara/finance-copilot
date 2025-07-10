@@ -1,13 +1,12 @@
 import requests
 
+
 def get_profit_and_loss(realm_id, access_token):
     url = f"https://sandbox-quickbooks.api.intuit.com/v3/company/{realm_id}/reports/ProfitAndLoss"
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Accept": "application/json"
-    }
+    headers = {"Authorization": f"Bearer {access_token}", "Accept": "application/json"}
     response = requests.get(url, headers=headers)
     return response.json()
+
 
 def summarize_financials(data):
     rows = data.get("Rows", {}).get("Row", [])
