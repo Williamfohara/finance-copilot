@@ -1,4 +1,5 @@
-{{ config(materialized='view') }}
+-- dbt/models/staging/stg_general_ledger.sql
+{{ config(materialized='table') }}
 
 with source as (
     select *
@@ -7,14 +8,13 @@ with source as (
 
 renamed as (
     select
-        txn_date,
-        account,
-        description,
-        memo,
-        name,
+        date as txn_date,
+        account as account_name,
+        memo_description,
+        name as entity_name,
         amount::double as amount  -- or try_cast(amount as double)
     from source
-    where account is not null and is_active = true
+    where account is not null and amount is not null and date is not null
 )
 
 select * from renamed

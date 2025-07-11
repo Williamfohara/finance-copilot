@@ -12,13 +12,6 @@ repos:
       - id: black
         language_version: python3.11
 
-  - repo: https://github.com/PyCQA/flake8
-    rev: 7.3.0
-    hooks:
-      - id: flake8
-        additional_dependencies: ["flake8-bugbear"]
-        args: ["--max-line-length=100"]
-
   - repo: https://github.com/PyCQA/isort
     rev: 6.0.1
     hooks:
@@ -31,4 +24,4 @@ repos:
       - id: sqlfluff-lint
         args: ["--dialect", "ansi", "--templater", "dbt"]
         additional_dependencies: ["sqlfluff-templater-dbt", "dbt-duckdb"]
-        entry: poetry run sqlfluff lint
+        entry: /Users/billybillyohara/Library/Python/3.9/bin/poetry run sqlfluff lint

@@ -1,11 +1,14 @@
 {{ config(materialized='table') }}
 
 select
+    account,
+    parent_account,
     date,
     transaction_type,
-    memo,
+    num,
     name,
-    account,
-    debit,
-    credit
+    memo_description,
+    split,
+    amount,
+    balance
 from read_csv_auto('clean_data/qbo_general_ledger.csv', header = true)

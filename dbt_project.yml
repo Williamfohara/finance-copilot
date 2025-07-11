@@ -21,7 +21,17 @@ vars:
 
 models:
   finance_copilot:
+    +persist_docs:
+      relation: true
+      columns: true
+    +materialized: table
+    +database: duckdb_finance
+
     raw:
       +materialized: table
+
     staging:
-      +materialized: view
+      +materialized: table
+
+    marts:
+      +materialized: table
