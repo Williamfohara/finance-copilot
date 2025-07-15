@@ -1,48 +1,36 @@
 account,parent_account,date,transaction_type,num,name,memo_description,split,amount,balance
-Checking,,,Beginning Balance,,,,,,1201.0
-Savings,,,Beginning Balance,,,,,,800.0
-Accounts Receivable (A/R),,,Beginning Balance,,,,,,5281.52
-Inventory Asset,,,Beginning Balance,,,,,,596.25
-Undeposited Funds,,,Beginning Balance,,,,,,2062.52
-Original Cost,,,Beginning Balance,,,,,,13495.0
-Accounts Payable (A/P),,,Beginning Balance,,,,,,1602.67
-Mastercard,,,Beginning Balance,,,,,,123.72
-Mastercard,,2025-07-08,Credit Card Expense,,,,Automobile,34.0,157.72
-Board of Equalization Payable,,,Beginning Balance,,,,,,370.94
-Loan Payable,,,Beginning Balance,,,,,,4000.0
-Notes Payable,,,Beginning Balance,,,,,,25000.0
-Opening Balance Equity,,,Beginning Balance,,,,,,-9337.5
-Design income,,,Beginning Balance,,,,,,2250.0
-Discounts given,,,Beginning Balance,,,,,,-89.5
-Landscaping Services,,,Beginning Balance,,,,,,1477.5
-Fountains and Garden Lighting,,,Beginning Balance,,,,,,2246.5
-Plants and Soil,,,Beginning Balance,,,,,,2351.97
-Sprinklers and Drip Systems,,,Beginning Balance,,,,,,138.0
-Installation,,,Beginning Balance,,,,,,250.0
-Maintenance and Repair,,,Beginning Balance,,,,,,50.0
-Pest Control Services,,,Beginning Balance,,,,,,110.0
-Sales of Product Income,,,Beginning Balance,,,,,,912.75
-Services,,,Beginning Balance,,,,,,503.55
-Cost of Goods Sold,,,Beginning Balance,,,,,,405.0
-Advertising,,,Beginning Balance,,,,,,74.86
-Automobile,,,Beginning Balance,,,,,,79.96
-Automobile,,2025-07-08,Credit Card Expense,,,,Mastercard,34.0,113.96
-Fuel,,,Beginning Balance,,,,,,349.41
-Equipment Rental,,,Beginning Balance,,,,,,112.0
-Insurance,,,Beginning Balance,,,,,,241.23
-Job Expenses,,,Beginning Balance,,,,,,155.07
-Decks and Patios,,,Beginning Balance,,,,,,234.04
-Plants and Soil,,,Beginning Balance,,,,,,353.12
-Sprinklers and Drip Systems,,,Beginning Balance,,,,,,215.66
-Legal & Professional Fees,,,Beginning Balance,,,,,,75.0
-Accounting,,,Beginning Balance,,,,,,640.0
-Bookkeeper,,,Beginning Balance,,,,,,55.0
-Lawyer,,,Beginning Balance,,,,,,400.0
-Maintenance and Repair,,,Beginning Balance,,,,,,185.0
-Equipment Repairs,,,Beginning Balance,,,,,,755.0
-Meals and Entertainment,,,Beginning Balance,,,,,,28.49
-Office Expenses,,,Beginning Balance,,,,,,18.08
-Rent or Lease,,,Beginning Balance,,,,,,900.0
-Gas and Electric,,,Beginning Balance,,,,,,200.53
-Telephone,,,Beginning Balance,,,,,,130.86
-Miscellaneous,,,Beginning Balance,,,,,,2916.0
+Checking,,2024-01-01,Deposit,9001,Legacy Contract,Annual maintenance contract,Accounts Receivable (A/R),5000.0,20000.0
+Checking,,2024-02-15,Invoice,INV-2024-001,Corporate Plaza,Spring landscape preparation,Landscaping Services,3500.0,23500.0
+Checking,,2024-03-20,Check,2401,Desert Plants Inc,Purchase of plants,Inventory Asset,-1200.0,22300.0
+Checking,,2024-04-10,Payment,1003,Corporate Plaza,Payment for INV-2024-001,Checking,3500.0,25800.0
+Checking,,2024-05-05,Expense,EXP-2024-005,Fuel Express,Fuel for trucks,Automobile:Fuel,-300.0,25500.0
+Checking,,2024-06-18,Check,2402,Southwest Insurance,Quarterly premium,Insurance,-1200.0,24300.0
+Checking,,2024-07-22,Invoice,INV-2024-006,Sunset Apartments,Summer maintenance,Landscaping Services,4200.0,28500.0
+Checking,,2024-08-14,Check,2403,Verde Supply Co,Materials for summer jobs,Inventory Asset,-1500.0,27000.0
+Checking,,2024-09-30,Deposit,9002,Various Clients,September payments,Accounts Receivable (A/R),4800.0,31800.0
+Checking,,2024-10-10,Journal Entry,JE-2024-012,ClientName1,Monthly Depreciation,Depreciation,-364.58,31435.42
+Checking,,2024-11-15,Payment,1004,Sunset Apartments,Payment for summer maintenance,Checking,4200.0,35635.42
+Checking,,2024-12-01,Invoice,INV-2024-010,Wilson Property Management,Winter prep contract,Landscaping Services,3000.0,38635.42
+Checking,,2024-12-31,Journal Entry,JE-2024-013,,Monthly Depreciation,Depreciation,-243.75,38391.67
+Checking,,2025-01-15,Check,2505,Desert Plants Inc,New Year plant stock,Inventory Asset,-1300.0,37091.67
+Checking,,2025-02-10,Invoice,INV-2025-011,Corporate Plaza,Spring prep,Landscaping Services,3500.0,40591.67
+Checking,,2025-03-01,Deposit,9003,Corporate Plaza,Payment spring prep,Accounts Receivable (A/R),3500.0,44091.67
+Checking,,2025-04-05,Expense,EXP-2025-010,Fuel Express,Fuel for trucks,Automobile:Fuel,-350.0,43741.67
+Checking,,2025-05-10,Check,2506,Phoenix Utilities,Monthly utility bill,Utilities:Gas and Electric,-295.0,43446.67
+Checking,,2025-06-20,Invoice,INV-2025-013,Sunset Apartments,Pre-summer maintenance,Landscaping Services,4100.0,47546.67
+Savings,,2024-01-01,Transfer,T0001,Initial Funding,Seed savings account,Checking,10000.0,10000.0
+Savings,,2024-12-31,Interest,INT-2024-001,Bank,Annual interest earned,Interest Income,250.0,10250.0
+Accounts Receivable (A/R),,2024-03-10,Invoice,INV-2024-015,Corporate Plaza,Spring cleanup,Landscaping Services,3000.0,21542.67
+Accounts Receivable (A/R),,2024-04-10,Payment,PAY-2024-010,Corporate Plaza,Payment received for spring cleanup,Checking,-3000.0,18542.67
+Inventory Asset,,2024-02-15,Bill,BILL-2024-005,Desert Plants Inc,Plant stock replenishment,Checking,1000.0,9945.5
+Inventory Asset,,2024-06-01,Invoice,INV-2024-020,Wilson Property Management,Materials for new garden,Cost of Goods Sold,-750.0,9195.5
+Prepaid Expenses,,2024-01-01,Bill,BILL-2024-001,Southwest Insurance,Annual insurance premium,Insurance,1200.0,4400.0
+Prepaid Expenses,,2024-06-30,Expense,EXP-2024-012,Monthly Allocation,Monthly insurance allocation,Insurance,-400.0,4000.0
+Uncategorized Asset,,2024-05-05,Adjustment,ADJ-2024-001,Miscellaneous,Adjustment entry,Other Current Assets,50.0,500.0
+Undeposited Funds,,2024-04-20,Sales Receipt,SR-2024-010,Walk-in Customer,Spring sale,Sales of Product Income,200.0,3050.0
+Truck,,,Beginning Balance,,,,,,35000.0
+Truck,,2024-10-10,Journal Entry,JE-2024-012,,Monthly Depreciation,Depreciation,-364.58,34635.42
+Equipment,,,Beginning Balance,,,,,,22500.0
+Equipment,,2024-12-31,Journal Entry,JE-2024-013,,Monthly Depreciation,Depreciation,-243.75,22256.25
+Accounts Payable (A/P),,2024-01-15,Bill,BILL-2024-002,Phoenix Utilities,Monthly utility bill,Utilities:Gas and Electric,295.0,5120.33
+Accounts Payable (A/P),,2024-02-01,Bill Payment,BPAY-2024-003,Phoenix Utilities,Utility bill payment,Checking,-295.0,4825.33

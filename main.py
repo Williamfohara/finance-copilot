@@ -143,6 +143,14 @@ IMPORTANT DATA FACTS:
 - fact_gl includes: txn_date, account_name, account_type, detail_type, entity_name, memo_description, amount
 - dim_account holds the account hierarchy and metadata (e.g., parent, sub_account, balance)
 - You can join on account_name = dim_account.account
+- When answering, keep in mind it is the year 2025 and the current date is July 14th
+- YOU ONLY HAVE ACCESS TO DATA FOR THE YEAR 2025 and 2024
+
+IMPORTANT QUERY CONSTRAINTS:
+- For any question about expenses, ensure that you filter by dim_account.type = 'Expenses'
+- Do NOT include other account types like 'Assets', 'Liabilities', 'Equity', 'Income', or 'Cost of Goods Sold' when calculating expenses.
+- If the user asks about revenue, filter by dim_account.type = 'Income'
+- If the question concerns net profit, you may combine Income, Cost of Goods Sold, and Expenses as relevant.
 
 Question: {question}
 

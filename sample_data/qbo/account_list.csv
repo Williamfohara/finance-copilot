@@ -3,95 +3,101 @@ Account List,,,,,
 ,,,,,
 ,,,,,
 ,Account,Type,Detail type,Description,Balance
-,Checking,Bank,Checking,,"1,201.00  "
-,Savings,Bank,Savings,,800.00
-,Accounts Receivable (A/R),Accounts receivable (A/R),Accounts Receivable (A/R),,"5,281.52  "
-,Inventory Asset,Other Current Assets,Inventory,,596.25
-,Prepaid Expenses,Other Current Assets,Prepaid Expenses,,0.00
-,Uncategorized Asset,Other Current Assets,Other Current Assets,,0.00
-,Undeposited Funds,Other Current Assets,Undeposited Funds,,"2,062.52  "
-,Truck,Fixed Assets,Vehicles,,"13,495.00  "
-,Truck:Depreciation,Fixed Assets,Accumulated Depreciation,,0.00
-,Truck:Original Cost,Fixed Assets,Vehicles,,"13,495.00  "
-,Accounts Payable (A/P),Accounts payable (A/P),Accounts Payable (A/P),,"-1,602.67  "
-,Mastercard,Credit Card,Credit Card,,-157.72
-,Visa,Credit Card,Credit Card,,0.00
-,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,,0.00
-,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,,-370.94
-,Loan Payable,Other Current Liabilities,Other Current Liabilities,,"-4,000.00  "
-,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,,"-25,000.00  "
-,Opening Balance Equity,Equity,Opening Balance Equity,,"9,337.50  "
-,Retained Earnings,Equity,Retained Earnings,,0.00
-,Billable Expense Income,Income,Service/Fee Income,,
-,Design income,Income,Other Primary Income,,
-,Discounts given,Income,Discounts/Refunds Given,,
-,Fees Billed,Income,Service/Fee Income,,
-,Landscaping Services,Income,Other Primary Income,,
-,Landscaping Services:Job Materials,Income,Other Primary Income,,
-,Landscaping Services:Job Materials:Decks and Patios,Income,Other Primary Income,,
-,Landscaping Services:Job Materials:Fountains and Garden Lighting,Income,Other Primary Income,,
-,Landscaping Services:Job Materials:Plants and Soil,Income,Other Primary Income,,
-,Landscaping Services:Job Materials:Sprinklers and Drip Systems,Income,Other Primary Income,,
-,Landscaping Services:Labor,Income,Other Primary Income,,
-,Landscaping Services:Labor:Installation,Income,Other Primary Income,,
-,Landscaping Services:Labor:Maintenance and Repair,Income,Other Primary Income,,
-,Other Income,Income,Other Primary Income,,
-,Pest Control Services,Income,Other Primary Income,,
-,Refunds-Allowances,Income,Discounts/Refunds Given,,
-,Sales of Product Income,Income,Sales of Product Income,,
-,Services,Income,Service/Fee Income,,
-,Unapplied Cash Payment Income,Income,Unapplied Cash Payment Income,,
-,Uncategorized Income,Income,Service/Fee Income,,
-,Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,,
-,Advertising,Expenses,Advertising/Promotional,,
-,Automobile,Expenses,Auto,,
-,Automobile:Fuel,Expenses,Auto,,
-,Bank Charges,Expenses,Bank Charges,,
-,Commissions & fees,Expenses,Other Miscellaneous Service Cost,,
-,Disposal Fees,Expenses,Other Miscellaneous Service Cost,,
-,Dues & Subscriptions,Expenses,Dues & subscriptions,,
-,Equipment Rental,Expenses,Equipment Rental,,
-,Insurance,Expenses,Insurance,,
-,Insurance:Workers Compensation,Expenses,Insurance,,
-,Job Expenses,Expenses,Other Miscellaneous Service Cost,,
-,Job Expenses:Cost of Labor,Expenses,Other Miscellaneous Service Cost,,
-,Job Expenses:Cost of Labor:Installation,Expenses,Other Miscellaneous Service Cost,,
-,Job Expenses:Cost of Labor:Maintenance and Repairs,Expenses,Other Miscellaneous Service Cost,,
-,Job Expenses:Equipment Rental,Expenses,Equipment Rental,,
-,Job Expenses:Job Materials,Expenses,Supplies & Materials,,
-,Job Expenses:Job Materials:Decks and Patios,Expenses,Supplies & Materials,,
-,Job Expenses:Job Materials:Fountain and Garden Lighting,Expenses,Supplies & Materials,,
-,Job Expenses:Job Materials:Plants and Soil,Expenses,Supplies & Materials,,
-,Job Expenses:Job Materials:Sprinklers and Drip Systems,Expenses,Supplies & Materials,,
-,Job Expenses:Permits,Expenses,Other Miscellaneous Service Cost,,
-,Legal & Professional Fees,Expenses,Legal & Professional Fees,,
-,Legal & Professional Fees:Accounting,Expenses,Legal & Professional Fees,,
-,Legal & Professional Fees:Bookkeeper,Expenses,Legal & Professional Fees,,
-,Legal & Professional Fees:Lawyer,Expenses,Legal & Professional Fees,,
-,Maintenance and Repair,Expenses,Repair & Maintenance,,
-,Maintenance and Repair:Building Repairs,Expenses,Repair & Maintenance,,
-,Maintenance and Repair:Computer Repairs,Expenses,Repair & Maintenance,,
-,Maintenance and Repair:Equipment Repairs,Expenses,Repair & Maintenance,,
-,Meals and Entertainment,Expenses,Entertainment Meals,,
-,Office Expenses,Expenses,Office/General Administrative Expenses,,
-,Promotional,Expenses,Advertising/Promotional,,
-,Purchases,Expenses,Supplies & Materials,,
-,Rent or Lease,Expenses,Rent or Lease of Buildings,,
-,Stationery & Printing,Expenses,Office/General Administrative Expenses,,
-,Supplies,Expenses,Supplies & Materials,,
-,Taxes & Licenses,Expenses,Taxes Paid,,
-,Travel,Expenses,Travel,,
-,Travel Meals,Expenses,Travel Meals,,
-,Unapplied Cash Bill Payment Expense,Expenses,Unapplied Cash Bill Payment Expense,,
-,Uncategorized Expense,Expenses,Other Miscellaneous Service Cost,,
-,Utilities,Expenses,Utilities,,
-,Utilities:Gas and Electric,Expenses,Utilities,,
-,Utilities:Telephone,Expenses,Utilities,,
-,Interest Earned,Other Income,Interest Earned,,
-,Other Portfolio Income,Other Income,Other Miscellaneous Income,,
-,Depreciation,Other Expense,Depreciation,,
-,Miscellaneous,Other Expense,Other Miscellaneous Expense,,
-,Penalties & Settlements,Other Expense,Penalties & Settlements,,
+,Checking,Bank,Checking,Main operating account,"15,247.83"
+,Savings,Bank,Savings,Emergency fund savings account,"25,000.00"
+,Accounts Receivable (A/R),Accounts receivable (A/R),Accounts Receivable (A/R),Outstanding customer invoices,"18,542.67"
+,Inventory Asset,Other Current Assets,Inventory,Landscaping materials and supplies,"8,945.50"
+,Prepaid Expenses,Other Current Assets,Prepaid Expenses,Prepaid insurance and rent,"3,200.00"
+,Uncategorized Asset,Other Current Assets,Other Current Assets,Miscellaneous current assets,"450.00"
+,Undeposited Funds,Other Current Assets,Undeposited Funds,Cash and checks awaiting deposit,"2,850.00"
+,Truck,Fixed Assets,Vehicles,2019 Ford F-250 Work Truck,"35,000.00"
+,Truck:Depreciation,Fixed Assets,Accumulated Depreciation,Accumulated depreciation on truck,"-8,750.00"
+,Truck:Original Cost,Fixed Assets,Vehicles,Original cost of truck,"43,750.00"
+,Equipment,Fixed Assets,Equipment,Landscaping equipment and tools,"22,500.00"
+,Equipment:Depreciation,Fixed Assets,Accumulated Depreciation,Accumulated depreciation on equipment,"-6,750.00"
+,Equipment:Original Cost,Fixed Assets,Equipment,Original cost of equipment,"29,250.00"
+,Accounts Payable (A/P),Accounts payable (A/P),Accounts Payable (A/P),Outstanding vendor bills,"-4,825.33"
+,Mastercard,Credit Card,Credit Card,Business credit card balance,"-2,156.78"
+,Visa,Credit Card,Credit Card,Secondary business credit card,"-892.45"
+,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,Arizona state tax liability,"-1,247.50"
+,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,Sales tax payable,"-2,893.67"
+,Payroll Liabilities,Other Current Liabilities,Payroll Liabilities,Employee tax and benefit withholdings,"-3,456.78"
+,Loan Payable,Other Current Liabilities,Other Current Liabilities,Equipment financing loan,"-12,000.00"
+,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,SBA loan for business expansion,"-45,000.00"
+,Opening Balance Equity,Equity,Opening Balance Equity,Initial equity investment,"25,000.00"
+,Retained Earnings,Equity,Retained Earnings,Accumulated business earnings,"12,450.89"
+,Owner's Equity,Equity,Owner's Equity,Additional owner contributions,"10,000.00"
+,Billable Expense Income,Income,Service/Fee Income,Reimbursable expenses billed to clients,"2,450.00"
+,Design income,Income,Other Primary Income,Landscape design consultation fees,"15,750.00"
+,Discounts given,Income,Discounts/Refunds Given,Customer discounts and promotional pricing,"-1,200.00"
+,Fees Billed,Income,Service/Fee Income,Service fees and consultation charges,"8,950.00"
+,Landscaping Services,Income,Other Primary Income,General landscaping service revenue,"65,000.00"
+,Landscaping Services:Job Materials,Income,Other Primary Income,Materials markup revenue,"18,500.00"
+,Landscaping Services:Job Materials:Decks and Patios,Income,Other Primary Income,Deck and patio material sales,"12,750.00"
+,Landscaping Services:Job Materials:Fountains and Garden Lighting,Income,Other Primary Income,Water features and lighting sales,"8,900.00"
+,Landscaping Services:Job Materials:Plants and Soil,Income,Other Primary Income,Plant and soil sales,"6,350.00"
+,Landscaping Services:Job Materials:Sprinklers and Drip Systems,Income,Other Primary Income,Irrigation system sales,"15,200.00"
+,Landscaping Services:Labor,Income,Other Primary Income,Labor charges for landscaping work,"45,000.00"
+,Landscaping Services:Labor:Installation,Income,Other Primary Income,New installation labor,"28,500.00"
+,Landscaping Services:Labor:Maintenance and Repair,Income,Other Primary Income,Ongoing maintenance labor,"16,500.00"
+,Other Income,Income,Other Primary Income,Miscellaneous income sources,"1,850.00"
+,Pest Control Services,Income,Other Primary Income,Pest control service revenue,"4,200.00"
+,Refunds-Allowances,Income,Discounts/Refunds Given,Customer refunds and allowances,"-750.00"
+,Sales of Product Income,Income,Sales of Product Income,Retail product sales,"3,450.00"
+,Services,Income,Service/Fee Income,General service revenue,"12,800.00"
+,Unapplied Cash Payment Income,Income,Unapplied Cash Payment Income,Unallocated customer payments,"0.00"
+,Uncategorized Income,Income,Service/Fee Income,Uncategorized revenue,"500.00"
+,Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,Direct costs of materials sold,"32,450.00"
+,Advertising,Expenses,Advertising/Promotional,Marketing and advertising expenses,"3,250.00"
+,Automobile,Expenses,Auto,Vehicle operating expenses,"4,850.00"
+,Automobile:Fuel,Expenses,Auto,Gasoline and diesel fuel costs,"2,100.00"
+,Bank Charges,Expenses,Bank Charges,Banking fees and charges,"125.00"
+,Commissions & fees,Expenses,Other Miscellaneous Service Cost,Sales commissions and referral fees,"1,850.00"
+,Disposal Fees,Expenses,Other Miscellaneous Service Cost,Waste disposal and dump fees,"450.00"
+,Dues & Subscriptions,Expenses,Dues & subscriptions,Professional memberships and subscriptions,"850.00"
+,Equipment Rental,Expenses,Equipment Rental,Rental of specialized equipment,"2,750.00"
+,Insurance,Expenses,Insurance,General business insurance,"4,200.00"
+,Insurance:Workers Compensation,Expenses,Insurance,Workers compensation insurance,"2,850.00"
+,Job Expenses,Expenses,Other Miscellaneous Service Cost,General job-related expenses,"8,450.00"
+,Job Expenses:Cost of Labor,Expenses,Other Miscellaneous Service Cost,Direct labor costs,"28,500.00"
+,Job Expenses:Cost of Labor:Installation,Expenses,Other Miscellaneous Service Cost,Installation labor expenses,"18,200.00"
+,Job Expenses:Cost of Labor:Maintenance and Repairs,Expenses,Other Miscellaneous Service Cost,Maintenance labor expenses,"10,300.00"
+,Job Expenses:Equipment Rental,Expenses,Equipment Rental,Job-specific equipment rental,"1,950.00"
+,Job Expenses:Job Materials,Expenses,Supplies & Materials,Direct job materials,"15,750.00"
+,Job Expenses:Job Materials:Decks and Patios,Expenses,Supplies & Materials,Deck and patio materials,"8,950.00"
+,Job Expenses:Job Materials:Fountain and Garden Lighting,Expenses,Supplies & Materials,Water feature and lighting materials,"6,200.00"
+,Job Expenses:Job Materials:Plants and Soil,Expenses,Supplies & Materials,Plant and soil costs,"4,850.00"
+,Job Expenses:Job Materials:Sprinklers and Drip Systems,Expenses,Supplies & Materials,Irrigation system materials,"9,750.00"
+,Job Expenses:Permits,Expenses,Other Miscellaneous Service Cost,Building and landscaping permits,"650.00"
+,Legal & Professional Fees,Expenses,Legal & Professional Fees,Professional service fees,"3,500.00"
+,Legal & Professional Fees:Accounting,Expenses,Legal & Professional Fees,Accounting and tax preparation,"2,100.00"
+,Legal & Professional Fees:Bookkeeper,Expenses,Legal & Professional Fees,Bookkeeping services,"1,800.00"
+,Legal & Professional Fees:Lawyer,Expenses,Legal & Professional Fees,Legal consultation fees,"950.00"
+,Maintenance and Repair,Expenses,Repair & Maintenance,Equipment and facility maintenance,"2,450.00"
+,Maintenance and Repair:Building Repairs,Expenses,Repair & Maintenance,Office and facility repairs,"850.00"
+,Maintenance and Repair:Computer Repairs,Expenses,Repair & Maintenance,Computer and IT repairs,"350.00"
+,Maintenance and Repair:Equipment Repairs,Expenses,Repair & Maintenance,Equipment maintenance and repairs,"1,250.00"
+,Meals and Entertainment,Expenses,Entertainment Meals,Business meals and entertainment,"1,350.00"
+,Office Expenses,Expenses,Office/General Administrative Expenses,General office supplies and expenses,"950.00"
+,Promotional,Expenses,Advertising/Promotional,Promotional materials and events,"1,150.00"
+,Purchases,Expenses,Supplies & Materials,General supplies and materials,"3,750.00"
+,Rent or Lease,Expenses,Rent or Lease of Buildings,Office and yard space rental,"6,000.00"
+,Stationery & Printing,Expenses,Office/General Administrative Expenses,Printing and stationery costs,"450.00"
+,Supplies,Expenses,Supplies & Materials,General business supplies,"1,250.00"
+,Taxes & Licenses,Expenses,Taxes Paid,Business licenses and taxes,"1,850.00"
+,Travel,Expenses,Travel,Business travel expenses,"750.00"
+,Travel Meals,Expenses,Travel Meals,Meals during business travel,"320.00"
+,Unapplied Cash Bill Payment Expense,Expenses,Unapplied Cash Bill Payment Expense,Unallocated vendor payments,"0.00"
+,Uncategorized Expense,Expenses,Other Miscellaneous Service Cost,Miscellaneous expenses,"650.00"
+,Utilities,Expenses,Utilities,Utility expenses,"2,850.00"
+,Utilities:Gas and Electric,Expenses,Utilities,Gas and electric utilities,"1,950.00"
+,Utilities:Telephone,Expenses,Utilities,Phone and internet services,"900.00"
+,Interest Earned,Other Income,Interest Earned,Bank account interest income,"125.00"
+,Other Portfolio Income,Other Income,Other Miscellaneous Income,Investment and other income,"450.00"
+,Depreciation,Other Expense,Depreciation,Equipment and vehicle depreciation,"3,200.00"
+,Interest Expense,Other Expense,Interest Expense,Loan and credit card interest,"1,450.00"
+,Miscellaneous,Other Expense,Other Miscellaneous Expense,Miscellaneous other expenses,"250.00"
+,Penalties & Settlements,Other Expense,Penalties & Settlements,Tax penalties and legal settlements,"150.00"
 ,,,,,
 ,,,,,
 "Wednesday, Jul 09, 2025 09:20:19 AM GMT-7",,,,,

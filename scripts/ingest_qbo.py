@@ -4,7 +4,7 @@ from pathlib import Path
 import duckdb
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "sample_data" / "qbo"
+DATA_DIR = Path(__file__).resolve().parents[1] / "clean_data"
 DB_PATH = Path(__file__).resolve().parents[1] / "data" / "duckdb_finance.duckdb"
 
 
@@ -17,10 +17,10 @@ def main():
     con = duckdb.connect(DB_PATH)
 
     files = {
-        "raw_general_ledger": "general_ledger",
-        "raw_account_list": "account_list",
-        "raw_pl": "pl",
-        "raw_balance_sheet": "balance_sheet",
+        "raw_general_ledger": "qbo_general_ledger",
+        "raw_account_list": "qbo_account_list",
+        "raw_pl": "qbo_pl",
+        "raw_balance_sheet": "qbo_balance_sheet",
     }
 
     for table, fname in files.items():
