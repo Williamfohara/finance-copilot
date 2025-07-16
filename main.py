@@ -9,6 +9,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.utilities import SQLDatabase
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
+from pydantic import BaseModel
 
 from qb import get_profit_and_loss, summarize_financials
 
@@ -78,7 +79,7 @@ Keep the explanation conversational and actionable."""
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a helpful financial analyst who explains data in plain English. Be conversational, insightful, and focus on business implications.",
+                    "content": "You are a helpful financial analyst who explains data in plain English. Be insightful, and focus on business implications.",
                 },
                 {"role": "user", "content": prompt},
             ],
@@ -139,18 +140,27 @@ IMPORTANT RULES:
 - Return ONLY the SQL query, no explanations
 
 IMPORTANT DATA FACTS:
-- The fact_gl table is the primary transaction table with normalized sign (+ for income, - for expense)
+- The fact_gl table is the primary transaction table with normalized sign: Income and Revenue amounts are positive, Expenses and Cost of Goods Sold amounts are negative.
 - fact_gl includes: txn_date, account_name, account_type, detail_type, entity_name, memo_description, amount
 - dim_account holds the account hierarchy and metadata (e.g., parent, sub_account, balance)
 - You can join on account_name = dim_account.account
+- For any question about expenses, ensure that you filter by dim_account.type = 'Expenses'
+- If the user mentions "marketing", filter:
+    - dim_account.detail_type LIKE '%Marketing%'
+    - OR dim_account.detail_type LIKE '%Advertising%'
+    - OR dim_account.account LIKE '%Marketing%'
 - When answering, keep in mind it is the year 2025 and the current date is July 14th
 - YOU ONLY HAVE ACCESS TO DATA FOR THE YEAR 2025 and 2024
 
 IMPORTANT QUERY CONSTRAINTS:
 - For any question about expenses, ensure that you filter by dim_account.type = 'Expenses'
-- Do NOT include other account types like 'Assets', 'Liabilities', 'Equity', 'Income', or 'Cost of Goods Sold' when calculating expenses.
+- For any question about Cost of Goods Sold, filter by dim_account.type = 'Cost of Goods Sold'
+- Do NOT include other account types like 'Assets', 'Liabilities', 'Equity' when calculating income, expenses, or COGS.
 - If the user asks about revenue, filter by dim_account.type = 'Income'
-- If the question concerns net profit, you may combine Income, Cost of Goods Sold, and Expenses as relevant.
+- For net profit, use this formula:
+    Net Profit = SUM(Income amounts) + SUM(Expenses amounts) + SUM(COGS amounts)
+    DO NOT negate or subtract expenses or COGS again because they are already negative.
+
 
 Question: {question}
 
@@ -279,6 +289,24 @@ async def query_endpoint(request: Request, query: str = None):
 
         traceback.print_exc()
         return {"error": str(e)}
+
+
+class SQLQueryRequest(BaseModel):
+    sql: str
+
+
+@app.post("/query_sql")
+async def run_raw_sql(payload: SQLQueryRequest):
+    sql = payload.sql
+    if not sql.strip().lower().startswith("select"):
+        return {"error": "Only SELECT queries are allowed."}
+    try:
+        results = sql_handler.execute_sql(sql)
+        explanation = explain_sql_results("Custom SQL query", sql, results)
+
+        return {"results": results, "explanation": explanation, "success": True}
+    except Exception as e:
+        return {"error": f"SQL execution failed: {str(e)}"}
 
 
 if __name__ == "__main__":

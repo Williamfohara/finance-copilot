@@ -2,59 +2,45 @@ Sandbox Company_US_1,Balance Sheet,"As of July 9, 2025",,,
 Total ASSETS,
    Current Assets,
       Bank Accounts,
-         Checking,"38,542.67"
-         Savings,"40,000.00"
-      Total Bank Accounts,"$ 78,542.67"
+         Checking,"15,247.83"
+         Savings,"25,000.00"
+      Total Bank Accounts,"$ 40,247.83"
       Accounts Receivable,
-         Accounts Receivable (A/R),"28,765.43"
-      Total Accounts Receivable,"$ 28,765.43"
+         Accounts Receivable (A/R),"18,542.67"
+      Total Accounts Receivable,"$ 18,542.67"
       Other Current Assets,
-         Inventory Asset,"14,250.75"
-         Prepaid Expenses,"4,800.00"
+         Inventory Asset,"8,945.50"
+         Prepaid Expenses,"3,200.00"
          Uncategorized Asset,"450.00"
-         Undeposited Funds,"4,120.00"
-      Total Other Current Assets,"$ 23,620.75"
-   Total Current Assets,"$ 130,928.85"
+         Undeposited Funds,"2,850.00"
+      Total Other Current Assets,"$ 15,445.50"
+   Total Current Assets,"$ 74,236.00"
    Fixed Assets,
       Truck,
-         Original Cost,"43,750.00"
-         Accumulated Depreciation,"-12,775.00"
-      Total Truck,"$ 30,975.00"
+         Truck:Original Cost,"43,750.00"
+         Truck:Depreciation,"-8,750.00"
+      Total Truck,"$ 35,000.00"
       Equipment,
-         Original Cost,"29,250.00"
-         Accumulated Depreciation,"-9,200.00"
-      Total Equipment,"$ 20,050.00"
-   Total Fixed Assets,"$ 51,025.00"
-TOTAL ASSETS,"$ 181,953.85"
+         Equipment:Original Cost,"29,250.00"
+         Equipment:Depreciation,"-6,750.00"
+      Total Equipment,"$ 22,500.00"
+   Total Fixed Assets,"$ 57,500.00"
+TOTAL ASSETS,"$ 131,736.00"
 LIABILITIES AND EQUITY,
    Liabilities,
-      Current Liabilities,
-         Accounts Payable,
-            Accounts Payable (A/P),"7,320.56"
-         Total Accounts Payable,"$ 7,320.56"
-         Credit Cards,
-            Mastercard,"4,528.12"
-            Visa,"2,475.67"
-         Total Credit Cards,"$ 7,003.79"
-         Other Current Liabilities,
-            Arizona Dept. of Revenue Payable,"2,775.00"
-            Board of Equalization Payable,"4,345.00"
-            Payroll Liabilities,"7,250.00"
-            Loan Payable,"10,500.00"
-         Total Other Current Liabilities,"$ 24,870.00"
-      Total Current Liabilities,"$ 39,194.35"
-      Long-Term Liabilities,
-         Notes Payable,"55,000.00"
-      Total Long-Term Liabilities,"$ 55,000.00"
-   Total Liabilities,"$ 94,194.35"
+      Accounts Payable (A/P),"4,825.33"
+      Mastercard,"2,156.78"
+      Visa,"892.45"
+      Arizona Dept. of Revenue Payable,"1,247.50"
+      Board of Equalization Payable,"2,893.67"
+      Payroll Liabilities,"3,456.78"
+      Loan Payable,"12,000.00"
+      Notes Payable,"45,000.00"
+   Total Liabilities,"$ 72,472.51"
    Equity,
       Opening Balance Equity,"25,000.00"
-      Owner's Equity,"15,000.00"
-      Retained Earnings,"18,600.00"
-      Net Income,"29,159.50"
-   Total Equity,"$ 87,759.50"
-TOTAL LIABILITIES AND EQUITY,"$ 181,953.85"
-,
-,
-,
-"Wednesday, Jul 09, 2025 09:19:58 AM GMT-7 - Accrual Basis",
+      Retained Earnings,"12,450.89"
+      Owner's Equity,"10,000.00"
+   Total Equity,"$ 47,450.89"
+TOTAL LIABILITIES AND EQUITY,"$ 119,923.40"
+"Wednesday, Jul 09, 2025 09:20:19 AM GMT-7 - Accrual Basis"

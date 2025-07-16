@@ -1,32 +1,32 @@
 account_id,account,parent_account,sub_account,type,detail_type,balance
-74,Savings,,Savings,Bank,Savings,25000.0
+75,Savings,,Savings,Bank,Savings,25000.0
 1,Accounts Receivable (A/R),,Accounts Receivable (A/R),Accounts receivable,Accounts Receivable (A/R),18542.67
 25,Inventory Asset,,Inventory Asset,Other Current Assets,Inventory,8945.5
-67,Prepaid Expenses,,Prepaid Expenses,Other Current Assets,Prepaid Expenses,3200.0
-86,Uncategorized Asset,,Uncategorized Asset,Other Current Assets,Other Current Assets,450.0
-89,Undeposited Funds,,Undeposited Funds,Other Current Assets,Undeposited Funds,2850.0
-81,Truck,,Truck,Fixed Assets,Vehicles,35000.0
-82,Truck:Depreciation,Truck,Depreciation,Fixed Assets,Accumulated Depreciation,-8750.0
-83,Truck:Original Cost,Truck,Original Cost,Fixed Assets,Vehicles,43750.0
+68,Prepaid Expenses,,Prepaid Expenses,Other Current Assets,Prepaid Expenses,3200.0
+87,Uncategorized Asset,,Uncategorized Asset,Other Current Assets,Other Current Assets,450.0
+90,Undeposited Funds,,Undeposited Funds,Other Current Assets,Undeposited Funds,2850.0
+82,Truck,,Truck,Fixed Assets,Vehicles,35000.0
+83,Truck:Depreciation,Truck,Depreciation,Fixed Assets,Accumulated Depreciation,-8750.0
+84,Truck:Original Cost,Truck,Original Cost,Fixed Assets,Vehicles,43750.0
 16,Equipment,,Equipment,Fixed Assets,Equipment,22500.0
 18,Equipment:Depreciation,Equipment,Depreciation,Fixed Assets,Accumulated Depreciation,-6750.0
 19,Equipment:Original Cost,Equipment,Original Cost,Fixed Assets,Equipment,29250.0
 0,Accounts Payable (A/P),,Accounts Payable (A/P),Accounts payable,Accounts Payable (A/P),-4825.33
-55,Mastercard,,Mastercard,Credit Card,Credit Card,-2156.78
-93,Visa,,Visa,Credit Card,Credit Card,-892.45
+56,Mastercard,,Mastercard,Credit Card,Credit Card,-2156.78
+94,Visa,,Visa,Credit Card,Credit Card,-892.45
 3,Arizona Dept. of Revenue Payable,,Arizona Dept. of Revenue Payable,Other Current Liabilities,Global Tax Payable,-1247.5
 8,Board of Equalization Payable,,Board of Equalization Payable,Other Current Liabilities,Global Tax Payable,-2893.67
-64,Payroll Liabilities,,Payroll Liabilities,Other Current Liabilities,Payroll Liabilities,-3456.78
+65,Payroll Liabilities,,Payroll Liabilities,Other Current Liabilities,Payroll Liabilities,-3456.78
 50,Loan Payable,,Loan Payable,Other Current Liabilities,Other Current Liabilities,-12000.0
-58,Notes Payable,,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,-45000.0
-60,Opening Balance Equity,,Opening Balance Equity,Equity,Opening Balance Equity,25000.0
-72,Retained Earnings,,Retained Earnings,Equity,Retained Earnings,12450.89
-63,Owner's Equity,,Owner's Equity,Equity,Owner's Equity,10000.0
+59,Notes Payable,,Notes Payable,Long Term Liabilities,Other Long Term Liabilities,-45000.0
+61,Opening Balance Equity,,Opening Balance Equity,Equity,Opening Balance Equity,25000.0
+73,Retained Earnings,,Retained Earnings,Equity,Retained Earnings,12450.89
+64,Owner's Equity,,Owner's Equity,Equity,Owner's Equity,10000.0
 7,Billable Expense Income,,Billable Expense Income,Income,Service/Fee Income,2450.0
 12,Design income,,Design income,Income,Other Primary Income,15750.0
 13,Discounts given,,Discounts given,Income,Discounts/Refunds Given,-1200.0
 20,Fees Billed,,Fees Billed,Income,Service/Fee Income,8950.0
-37,Landscaping Services,,Landscaping Services,Income,Other Primary Income,65000.0
+37,Landscaping Services,,Landscaping Services,Income,Other Primary Income,77931.85
 38,Landscaping Services:Job Materials,Landscaping Services,Job Materials,Income,Other Primary Income,18500.0
 39,Landscaping Services:Job Materials:Decks and Patios,Landscaping Services,Job Materials:Decks and Patios,Income,Other Primary Income,12750.0
 40,Landscaping Services:Job Materials:Fountains and Garden Lighting,Landscaping Services,Job Materials:Fountains and Garden Lighting,Income,Other Primary Income,8900.0
@@ -35,23 +35,24 @@ account_id,account,parent_account,sub_account,type,detail_type,balance
 43,Landscaping Services:Labor,Landscaping Services,Labor,Income,Other Primary Income,45000.0
 44,Landscaping Services:Labor:Installation,Landscaping Services,Labor:Installation,Income,Other Primary Income,28500.0
 45,Landscaping Services:Labor:Maintenance and Repair,Landscaping Services,Labor:Maintenance and Repair,Income,Other Primary Income,16500.0
-61,Other Income,,Other Income,Income,Other Primary Income,1850.0
-66,Pest Control Services,,Pest Control Services,Income,Other Primary Income,4200.0
-70,Refunds-Allowances,,Refunds-Allowances,Income,Discounts/Refunds Given,-750.0
-73,Sales of Product Income,,Sales of Product Income,Income,Sales of Product Income,3450.0
-75,Services,,Services,Income,Service/Fee Income,12800.0
-85,Unapplied Cash Payment Income,,Unapplied Cash Payment Income,Income,Unapplied Cash Payment Income,0.0
-88,Uncategorized Income,,Uncategorized Income,Income,Service/Fee Income,500.0
-10,Cost of Goods Sold,,Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,32450.0
+62,Other Income,,Other Income,Income,Other Primary Income,1850.0
+67,Pest Control Services,,Pest Control Services,Income,Other Primary Income,4200.0
+71,Refunds-Allowances,,Refunds-Allowances,Income,Discounts/Refunds Given,-750.0
+74,Sales of Product Income,,Sales of Product Income,Income,Sales of Product Income,10516.69
+76,Services,,Services,Income,Service/Fee Income,12800.0
+86,Unapplied Cash Payment Income,,Unapplied Cash Payment Income,Income,Unapplied Cash Payment Income,0.0
+89,Uncategorized Income,,Uncategorized Income,Income,Service/Fee Income,500.0
+10,Cost of Goods Sold,,Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,-5453.67
 2,Advertising,,Advertising,Expenses,Advertising/Promotional,3250.0
+55,Marketing Expense,,Marketing Expense,Expenses,Advertising/Promotional,3267.25
 4,Automobile,,Automobile,Expenses,Auto,4850.0
-5,Automobile:Fuel,Automobile,Fuel,Expenses,Auto,2100.0
+5,Automobile:Fuel,Automobile,Fuel,Expenses,Auto,-1176.23
 6,Bank Charges,,Bank Charges,Expenses,Bank Charges,125.0
 9,Commissions & fees,,Commissions & fees,Expenses,Other Miscellaneous Service Cost,1850.0
 14,Disposal Fees,,Disposal Fees,Expenses,Other Miscellaneous Service Cost,450.0
 15,Dues & Subscriptions,,Dues & Subscriptions,Expenses,Dues & subscriptions,850.0
 17,Equipment Rental,,Equipment Rental,Expenses,Equipment Rental,2750.0
-21,Insurance,,Insurance,Expenses,Insurance,4200.0
+21,Insurance,,Insurance,Expenses,Insurance,12696.08
 22,Insurance:Workers Compensation,Insurance,Workers Compensation,Expenses,Insurance,2850.0
 26,Job Expenses,,Job Expenses,Expenses,Other Miscellaneous Service Cost,8450.0
 27,Job Expenses:Cost of Labor,Job Expenses,Cost of Labor,Expenses,Other Miscellaneous Service Cost,28500.0
@@ -72,24 +73,24 @@ account_id,account,parent_account,sub_account,type,detail_type,balance
 52,Maintenance and Repair:Building Repairs,Maintenance and Repair,Building Repairs,Expenses,Repair & Maintenance,850.0
 53,Maintenance and Repair:Computer Repairs,Maintenance and Repair,Computer Repairs,Expenses,Repair & Maintenance,350.0
 54,Maintenance and Repair:Equipment Repairs,Maintenance and Repair,Equipment Repairs,Expenses,Repair & Maintenance,1250.0
-56,Meals and Entertainment,,Meals and Entertainment,Expenses,Entertainment Meals,1350.0
-59,Office Expenses,,Office Expenses,Expenses,Office/General Administrative Expenses,950.0
-68,Promotional,,Promotional,Expenses,Advertising/Promotional,1150.0
-69,Purchases,,Purchases,Expenses,Supplies & Materials,3750.0
-71,Rent or Lease,,Rent or Lease,Expenses,Rent or Lease of Buildings,6000.0
-76,Stationery & Printing,,Stationery & Printing,Expenses,Office/General Administrative Expenses,450.0
-77,Supplies,,Supplies,Expenses,Supplies & Materials,1250.0
-78,Taxes & Licenses,,Taxes & Licenses,Expenses,Taxes Paid,1850.0
-79,Travel,,Travel,Expenses,Travel,750.0
-80,Travel Meals,,Travel Meals,Expenses,Travel Meals,320.0
-84,Unapplied Cash Bill Payment Expense,,Unapplied Cash Bill Payment Expense,Expenses,Unapplied Cash Bill Payment Expense,0.0
-87,Uncategorized Expense,,Uncategorized Expense,Expenses,Other Miscellaneous Service Cost,650.0
-90,Utilities,,Utilities,Expenses,Utilities,2850.0
-91,Utilities:Gas and Electric,Utilities,Gas and Electric,Expenses,Utilities,1950.0
-92,Utilities:Telephone,Utilities,Telephone,Expenses,Utilities,900.0
+57,Meals and Entertainment,,Meals and Entertainment,Expenses,Entertainment Meals,1350.0
+60,Office Expenses,,Office Expenses,Expenses,Office/General Administrative Expenses,950.0
+69,Promotional,,Promotional,Expenses,Advertising/Promotional,1150.0
+70,Purchases,,Purchases,Expenses,Supplies & Materials,3750.0
+72,Rent or Lease,,Rent or Lease,Expenses,Rent or Lease of Buildings,6000.0
+77,Stationery & Printing,,Stationery & Printing,Expenses,Office/General Administrative Expenses,450.0
+78,Supplies,,Supplies,Expenses,Supplies & Materials,1250.0
+79,Taxes & Licenses,,Taxes & Licenses,Expenses,Taxes Paid,1850.0
+80,Travel,,Travel,Expenses,Travel,750.0
+81,Travel Meals,,Travel Meals,Expenses,Travel Meals,320.0
+85,Unapplied Cash Bill Payment Expense,,Unapplied Cash Bill Payment Expense,Expenses,Unapplied Cash Bill Payment Expense,0.0
+88,Uncategorized Expense,,Uncategorized Expense,Expenses,Other Miscellaneous Service Cost,650.0
+91,Utilities,,Utilities,Expenses,Utilities,2850.0
+92,Utilities:Gas and Electric,Utilities,Gas and Electric,Expenses,Utilities,14199.31
+93,Utilities:Telephone,Utilities,Telephone,Expenses,Utilities,900.0
 23,Interest Earned,,Interest Earned,Other Income,Interest Earned,125.0
-62,Other Portfolio Income,,Other Portfolio Income,Other Income,Other Miscellaneous Income,450.0
-11,Depreciation,,Depreciation,Other Expense,Depreciation,3200.0
+63,Other Portfolio Income,,Other Portfolio Income,Other Income,Other Miscellaneous Income,450.0
+11,Depreciation,,Depreciation,Other Expense,Depreciation,-8244.81
 24,Interest Expense,,Interest Expense,Other Expense,Interest Expense,1450.0
-57,Miscellaneous,,Miscellaneous,Other Expense,Other Miscellaneous Expense,250.0
-65,Penalties & Settlements,,Penalties & Settlements,Other Expense,Penalties & Settlements,150.0
+58,Miscellaneous,,Miscellaneous,Other Expense,Other Miscellaneous Expense,250.0
+66,Penalties & Settlements,,Penalties & Settlements,Other Expense,Penalties & Settlements,150.0

@@ -1,31 +1,28 @@
 section,account,amount
-Income,Design income,3000.0
-Income,Discounts given,-95.0
-Income,Landscaping Services,12300.0
-Income,Job Materials,0.0
-Income,Decks and Patios,0.0
-Income,Fountains and Garden Lighting,4250.0
-Income,Plants and Soil,1950.0
-Income,Labor,0.0
-Income,Installation,0.0
-Income,Maintenance and Repair,2250.0
+Income,Design income,0.0
+Income,Discounts given,0.0
+Income,Landscaping Services,77931.85
 Income,Pest Control Services,0.0
-Income,Sales of Product Income,530.75
+Income,Sales of Product Income,10516.69
 Income,Services,0.0
-Income,Cost of Goods Sold,3555.0
-Income,Gross Profit,20725.75
+Income,Decks and Patios,0.0
+Income,Fountains and Garden Lighting,0.0
+Income,Plants and Soil,0.0
+Income,Installation,0.0
+Income,Maintenance and Repair,0.0
+Income,Cost of Goods Sold,-5453.67
+Income,Gross Profit,93902.21
 Expenses,Automobile,0.0
-Expenses,Fuel,981.25
-Expenses,Equipment Rental,425.0
-Expenses,Insurance,1600.0
+Expenses,Fuel,-1176.23
+Expenses,Equipment Rental,0.0
+Expenses,Insurance,12696.08
 Expenses,Job Expenses,0.0
-Expenses,Cost of Labor,2500.0
-Expenses,Job Materials,689.75
-Expenses,Stationery & Printing,65.0
-Expenses,Taxes & Licenses,1500.0
-Expenses,Utilities,0.0
-Expenses,Gas and Electric,885.0
-Expenses,Office Expenses,250.0
+Expenses,Cost of Labor,0.0
+Expenses,Job Materials,0.0
+Expenses,Stationery & Printing,0.0
+Expenses,Taxes & Licenses,0.0
+Expenses,Utilities:Gas and Electric,14199.31
+Expenses,Office Expenses,0.0
 Expenses,Other Income,0.0
-Expenses,Depreciation,2920.0
-Expenses,Interest Expense,1670.0
+Expenses,Depreciation,-8244.81
+Expenses,Interest Expense,0.0

@@ -10,7 +10,7 @@ renamed as (
         name as entity_name,
         amount::double as amount,
         case
-            when account = 'Checking' and split is not null then split
+            when split is not null and split != '' then split
             else account
         end as account_name
     from source

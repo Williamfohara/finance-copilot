@@ -4,52 +4,48 @@ Sandbox Company_US_1,
 ,
 Distribution account,Total
 Income,
-Design income,"3,000.00"
-Discounts given,-95.00
-Landscaping Services,"12,300.00"
-Job Materials,0.00
-Decks and Patios,0.00
-Fountains and Garden Lighting,"4,250.00"
-Plants and Soil,"1,950.00"
-Total for Job Materials,"$ 6,200.00"
-Labor,0.00
-Installation,0.00
-Maintenance and Repair,"2,250.00"
-Total for Labor,"$ 2,250.00"
-Total for Landscaping Services,"$ 20,750.00"
-Pest Control Services,0.00
-Sales of Product Income,"530.75"
-Services,0.00
-Total for Income,"$ 24,280.75"
+Design income,"0.00"
+Discounts given,"0.00"
+Landscaping Services,"77,931.85"
+Pest Control Services,"0.00"
+Sales of Product Income,"10,516.69"
+Services,"0.00"
+Decks and Patios,"0.00"
+Fountains and Garden Lighting,"0.00"
+Plants and Soil,"0.00"
+Total for Job Materials,"$ 0.00"
+Installation,"0.00"
+Maintenance and Repair,"0.00"
+Total for Labor,"$ 0.00"
+Total for Landscaping Services,"$ 77,931.85"
+Total for Income,"$ 88,448.54"
 Cost of Goods Sold,
-Cost of Goods Sold,"3,555.00"
-Total for Cost of Goods Sold,"$ 3,555.00"
-Gross Profit,"$ 20,725.75"
+Cost of Goods Sold,"-5,453.67"
+Total for Cost of Goods Sold,"$ -5,453.67"
+Gross Profit,"$ 93,902.21"
 Expenses,
-Automobile,0.00
-Fuel,"981.25"
-Total for Automobile,"$ 981.25"
-Equipment Rental,"425.00"
-Insurance,"1,600.00"
+Automobile,"0.00"
+Fuel,"-1,176.23"
+Total for Automobile,"$ -1,176.23"
+Equipment Rental,"0.00"
+Insurance,"12,696.08"
 Job Expenses,0.00
-Cost of Labor,"2,500.00"
-Job Materials,"689.75"
-Total for Job Expenses,"$ 3,189.75"
-Stationery & Printing,"65.00"
-Taxes & Licenses,"1,500.00"
-Utilities,0.00
-Gas and Electric,"885.00"
-Total for Utilities,"$ 885.00"
-Office Expenses,"250.00"
-Total for Expenses,"$ 8,895.00"
-Net Operating Income,"$ 11,830.75"
+Cost of Labor,"0.00"
+Job Materials,"0.00"
+Total for Job Expenses,"$ 0.00"
+Stationery & Printing,"0.00"
+Taxes & Licenses,"0.00"
+Utilities:Gas and Electric,"14,199.31"
+Office Expenses,"0.00"
+Total for Expenses,"$ 25,719.16"
+Net Operating Income,"$ 68,183.05"
 Other Income,0.00
 Other Expenses,
-Depreciation,"2,920.00"
-Interest Expense,"1,670.00"
-Total for Other Expenses,"$ 4,590.00"
-Net Other Income,"-$ 4,590.00"
-Net Income,"$ 7,240.75"
+Depreciation,"-8,244.81"
+Interest Expense,"0.00"
+Total for Other Expenses,"$ -8,244.81"
+Net Other Income,"$ 8,244.81"
+Net Income,"$ 76,427.86"
 ,
 ,
 ,

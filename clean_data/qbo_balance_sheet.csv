@@ -1,23 +1,12 @@
 section,category,subcategory,account,balance
-Total ASSETS,Current Assets,Bank Accounts,Checking,38542.67
-Total ASSETS,Current Assets,Bank Accounts,Savings,40000.0
-Total ASSETS,Current Assets,Accounts Receivable,Accounts Receivable (A/R),28765.43
-Total ASSETS,Current Assets,Other Current Assets,Inventory Asset,14250.75
-Total ASSETS,Current Assets,Other Current Assets,Prepaid Expenses,4800.0
+Total ASSETS,Current Assets,Bank Accounts,Checking,15247.83
+Total ASSETS,Current Assets,Bank Accounts,Savings,25000.0
+Total ASSETS,Current Assets,Accounts Receivable,Accounts Receivable (A/R),18542.67
+Total ASSETS,Current Assets,Other Current Assets,Inventory Asset,8945.5
+Total ASSETS,Current Assets,Other Current Assets,Prepaid Expenses,3200.0
 Total ASSETS,Current Assets,Other Current Assets,Uncategorized Asset,450.0
-Total ASSETS,Current Assets,Other Current Assets,Undeposited Funds,4120.0
-Total ASSETS,Fixed Assets,Truck,Original Cost,43750.0
-Total ASSETS,Fixed Assets,Truck,Accumulated Depreciation,-12775.0
-Total ASSETS,Fixed Assets,Equipment,Original Cost,29250.0
-Total ASSETS,Fixed Assets,Equipment,Accumulated Depreciation,-9200.0
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Accounts Payable (A/P),7320.56
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Accounts Payable,7320.56
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Mastercard,4528.12
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Visa,2475.67
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Credit Cards,7003.79
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Arizona Dept. of Revenue Payable,2775.0
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Board of Equalization Payable,4345.0
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Payroll Liabilities,7250.0
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Loan Payable,10500.0
-LIABILITIES AND EQUITY,Liabilities,Current Liabilities,Total Other Current Liabilities,24870.0
-LIABILITIES AND EQUITY,Liabilities,Long-Term Liabilities,Notes Payable,55000.0
+Total ASSETS,Current Assets,Other Current Assets,Undeposited Funds,2850.0
+Total ASSETS,Fixed Assets,Truck,Truck:Original Cost,43750.0
+Total ASSETS,Fixed Assets,Truck,Truck:Depreciation,-8750.0
+Total ASSETS,Fixed Assets,Equipment,Equipment:Original Cost,29250.0
+Total ASSETS,Fixed Assets,Equipment,Equipment:Depreciation,-6750.0

@@ -9,7 +9,6 @@ query = st.text_input("🔍 Ask a question about your finances:")
 if query:
     with st.spinner("Contacting GPT Copilot..."):
         try:
-            # Send the query to your FastAPI backend with timeout
             response = requests.get(
                 "http://localhost:8000/query", params={"query": query}, timeout=60
             )
@@ -19,13 +18,33 @@ if query:
                 st.error(f"❌ Error: {data['error']}")
             else:
                 st.success("✅ Answer received!")
-                st.code(data["generated_sql"], language="sql")
+                generated_sql = data["generated_sql"]
+                edited_sql = st.text_area(
+                    "✏️ Edit SQL if needed:", generated_sql, height=200, key="sql_editor"
+                )
 
-                # Display raw result if available
+                if st.button("Run Edited SQL"):
+                    with st.spinner("Executing your edited SQL..."):
+                        sql_response = requests.post(
+                            "http://localhost:8000/query_sql", json={"sql": edited_sql}, timeout=60
+                        )
+                        sql_data = sql_response.json()
+
+                        if "error" in sql_data:
+                            st.error(f"❌ Error: {sql_data['error']}")
+                        else:
+                            st.success("✅ Edited SQL executed successfully!")
+                            st.dataframe(sql_data["results"])
+
+                            if "explanation" in sql_data:
+                                st.markdown("### 📊 Explanation of Edited Query")
+                                st.write(sql_data["explanation"])
+
+                # Display initial query result
                 if "raw_result" in data and data["raw_result"]:
+                    st.markdown("### 📋 Initial Result from GPT-generated SQL")
                     st.dataframe(data["raw_result"])
 
-                # 🧠 Natural language explanation
                 if "explanation" in data:
                     st.markdown("### 📊 Explanation")
                     st.write(data["explanation"])
@@ -36,6 +55,7 @@ if query:
             st.error("⚠️ Could not connect to the server. Make sure your FastAPI server is running.")
         except Exception as e:
             st.error(f"⚠️ Request failed: {e}")
+
 
 print(
     "👉 Sending GET request with params:",

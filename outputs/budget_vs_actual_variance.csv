@@ -1,0 +1,41 @@
+split,quarter,actual,budget,parent_account,type,detail_type,variance
+Automobile:Fuel,2025Q1,4066.8899999999994,4510.33,,Expenses,Auto,-443.4400000000005
+Automobile:Fuel,2025Q2,0.0,1180.0,,Expenses,Auto,-1180.0
+Automobile:Fuel,2025Q3,1943.11,4609.2,,Expenses,Auto,-2666.09
+Automobile:Fuel,2025Q4,0.0,4625.97,,Expenses,Auto,-4625.97
+Cost of Goods Sold,2025Q1,5153.96,1253.9,,Cost of Goods Sold,Supplies & Materials - COGS,3900.06
+Cost of Goods Sold,2025Q2,-71.57999999999981,4510.02,,Cost of Goods Sold,Supplies & Materials - COGS,-4581.6
+Cost of Goods Sold,2025Q3,306.62,3883.86,,Cost of Goods Sold,Supplies & Materials - COGS,-3577.2400000000002
+Cost of Goods Sold,2025Q4,0.0,2655.04,,Cost of Goods Sold,Supplies & Materials - COGS,-2655.04
+Depreciation,2025Q1,-1318.18,8101.16,,Other Expense,Depreciation,-9419.34
+Depreciation,2025Q2,-1328.49,4803.55,,Other Expense,Depreciation,-6132.04
+Depreciation,2025Q3,-958.38,8677.27,,Other Expense,Depreciation,-9635.65
+Depreciation,2025Q4,0.0,7669.51,,Other Expense,Depreciation,-7669.51
+Insurance,2025Q1,1754.3600000000001,5939.4800000000005,,Expenses,Insurance,-4185.120000000001
+Insurance,2025Q2,450.79,5613.64,,Expenses,Insurance,-5162.85
+Insurance,2025Q3,857.9599999999999,5879.74,,Expenses,Insurance,-5021.78
+Insurance,2025Q4,141.11,8549.58,,Expenses,Insurance,-8408.47
+Interest Income,2025Q1,720.44,3354.42,,,,-2633.98
+Interest Income,2025Q2,657.46,1570.47,,,,-913.01
+Interest Income,2025Q3,421.9,1421.65,,,,-999.7500000000001
+Interest Income,2025Q4,0.0,2775.94,,,,-2775.94
+Landscaping Services,2025Q1,27051.54,3521.32,,Income,Other Primary Income,23530.22
+Landscaping Services,2025Q2,15851.68,4372.85,,Income,Other Primary Income,11478.83
+Landscaping Services,2025Q3,0.0,2347.57,,Income,Other Primary Income,-2347.57
+Landscaping Services,2025Q4,0.0,3072.52,,Income,Other Primary Income,-3072.52
+Marketing Expense,2025Q1,0.0,3565.46,,Expenses,Advertising/Promotional,-3565.46
+Marketing Expense,2025Q2,-965.46,1600.83,,Expenses,Advertising/Promotional,-2566.29
+Marketing Expense,2025Q3,0.0,2826.81,,Expenses,Advertising/Promotional,-2826.81
+Marketing Expense,2025Q4,0.0,4434.35,,Expenses,Advertising/Promotional,-4434.35
+Other Current Assets,2025Q1,-75.38,1548.64,,,,-1624.02
+Other Current Assets,2025Q2,59.68000000000001,2986.08,,,,-2926.4
+Other Current Assets,2025Q3,37.260000000000005,4256.52,,,,-4219.26
+Other Current Assets,2025Q4,0.0,3382.59,,,,-3382.59
+Sales of Product Income,2025Q1,1248.0,3261.75,,Income,Sales of Product Income,-2013.75
+Sales of Product Income,2025Q2,1774.05,4538.01,,Income,Sales of Product Income,-2763.96
+Sales of Product Income,2025Q3,1041.52,3186.17,,Income,Sales of Product Income,-2144.65
+Sales of Product Income,2025Q4,0.0,4485.34,,Income,Sales of Product Income,-4485.34
+Utilities:Gas and Electric,2025Q1,675.94,4686.219999999999,,Expenses,Utilities,-4010.2799999999993
+Utilities:Gas and Electric,2025Q2,4699.6,7950.29,,Expenses,Utilities,-3250.6899999999996
+Utilities:Gas and Electric,2025Q3,2070.44,6241.43,,Expenses,Utilities,-4170.99
+Utilities:Gas and Electric,2025Q4,0.0,7301.76,,Expenses,Utilities,-7301.76

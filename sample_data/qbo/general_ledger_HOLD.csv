@@ -1,0 +1,232 @@
+Sandbox Company_US_1,,,,,,,,
+General Ledger,,,,,,,,
+"Jan 1, 2024 - July 9, 2025",,,,,,,,
+,,,,,,,,
+,Date,Transaction Type,Num,Name,Memo/Description,Split,Amount,Balance
+Checking,,,,,,,,
+,01/26/2024,Check,CHE-9281,Holland-Miller,Fuel Expense for Truck,Automobile:Fuel,-506.69,19493.31
+,02/10/2024,Check,CHE-4603,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-370.6,19122.71
+,03/17/2024,Payment,PAY-4358,Holland-Miller,Fuel Expense for Truck,Automobile:Fuel,-2511.33,16611.38
+,04/27/2024,Payment,PAY-2148,Price LLC,Marketing Spend,Marketing Expense,-3938.83,12672.55
+,05/12/2024,Check,CHE-3284,Price LLC,Marketing Spend,Marketing Expense,3710.29,16382.84
+,06/18/2024,Payment,PAY-9861,Price LLC,Marketing Spend,Marketing Expense,-943.73,15439.11
+,07/08/2024,Deposit,DEP-2398,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,2558.12,17997.23
+,07/22/2024,Check,CHE-9342,Holland-Miller,Fuel Expense for Truck,Automobile:Fuel,1867.14,19864.37
+,08/23/2024,Deposit,DEP-9837,Price LLC,Marketing Spend,Marketing Expense,1182.81,21047.18
+,09/19/2024,Expense,EXP-3407,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,3737.26,24784.44
+,10/17/2024,Deposit,DEP-69,Price LLC,Marketing Spend,Marketing Expense,4086.9,28871.34
+,11/12/2024,Expense,EXP-4018,Price LLC,Marketing Spend,Marketing Expense,597.18,29468.52
+,12/18/2024,Check,CHE-8683,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,31.07,29499.59
+,01/26/2025,Expense,EXP-696,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,2405.6,31905.19
+,03/01/2025,Check,CHE-7175,Price LLC,Marketing Spend,Marketing Expense,-24.96,31880.23
+,04/01/2025,Payment,PAY-8213,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-926.72,30953.51
+,05/03/2025,Payment,PAY-2249,Holland-Miller,Fuel Expense for Truck,Automobile:Fuel,-25.35,30928.16
+,05/31/2025,Check,CHE-9846,Price LLC,Marketing Spend,Marketing Expense,2286.72,33214.88
+,07/17/2025,Check,CHE-7639,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,4752.29,37967.17
+,08/07/2025,Payment,PAY-283,Price LLC,Marketing Spend,Marketing Expense,-3689.13,34278.04
+Total for Checking,,,,,,,14278.04,
+Savings,,,,,,,,
+,01/28/2024,Deposit,DEP-3961,Torres-Powell,Interest Income Transaction,Interest Income,274.42,20274.42
+,02/12/2024,Deposit,DEP-5860,Torres-Powell,Interest Income Transaction,Interest Income,361.76,20636.18
+,03/07/2024,Interest,INT-386,Torres-Powell,Interest Income Transaction,Interest Income,384.33,21020.51
+,03/29/2024,Interest,INT-5215,Torres-Powell,Interest Income Transaction,Interest Income,146.51,21167.02
+,04/20/2024,Deposit,DEP-688,Torres-Powell,Interest Income Transaction,Interest Income,465.12,21632.14
+,05/11/2024,Deposit,DEP-4946,Torres-Powell,Interest Income Transaction,Interest Income,82.06,21714.2
+,06/07/2024,Deposit,DEP-6183,Torres-Powell,Interest Income Transaction,Interest Income,196.85,21911.05
+,06/30/2024,Interest,INT-5574,Torres-Powell,Interest Income Transaction,Interest Income,187.91,22098.96
+,08/12/2024,Interest,INT-7269,Torres-Powell,Interest Income Transaction,Interest Income,433.69,22532.65
+,09/04/2024,Interest,INT-9363,Torres-Powell,Interest Income Transaction,Interest Income,106.94,22639.59
+,09/23/2024,Deposit,DEP-9580,Torres-Powell,Interest Income Transaction,Interest Income,475.38,23114.97
+,10/31/2024,Interest,INT-430,Torres-Powell,Interest Income Transaction,Interest Income,484.39,23599.36
+,11/23/2024,Interest,INT-3333,Torres-Powell,Interest Income Transaction,Interest Income,268.15,23867.51
+,01/04/2025,Interest,INT-1497,Torres-Powell,Interest Income Transaction,Interest Income,259.0,24126.51
+,02/09/2025,Interest,INT-6883,Torres-Powell,Interest Income Transaction,Interest Income,159.4,24285.91
+,03/23/2025,Interest,INT-7191,Torres-Powell,Interest Income Transaction,Interest Income,384.21,24670.12
+,04/20/2025,Deposit,DEP-1196,Torres-Powell,Interest Income Transaction,Interest Income,255.82,24925.94
+,06/05/2025,Interest,INT-6738,Torres-Powell,Interest Income Transaction,Interest Income,418.04,25343.98
+,07/04/2025,Interest,INT-1657,Torres-Powell,Interest Income Transaction,Interest Income,190.29,25534.27
+,07/27/2025,Interest,INT-1549,Torres-Powell,Interest Income Transaction,Interest Income,470.15,26004.42
+Total for Savings,,,,,,,6004.42,
+Accounts Receivable (A/R),,,,,,,,
+,02/10/2024,Payment,PAY-4600,Cook-Mitchell,Landscaping Service,Landscaping Services,2017.17,22017.17
+,03/20/2024,Payment,PAY-5350,Cook-Mitchell,Landscaping Service,Landscaping Services,3234.04,25251.21
+,04/24/2024,Invoice,INV-6872,Cook-Mitchell,Landscaping Service,Landscaping Services,4616.64,29867.85
+,05/12/2024,Invoice,INV-3435,Cook-Mitchell,Landscaping Service,Landscaping Services,2930.69,32798.54
+,06/20/2024,Payment,PAY-4729,Cook-Mitchell,Landscaping Service,Landscaping Services,3554.22,36352.76
+,06/19/2024,Payment,PAY-2942,Cook-Mitchell,Payment for previous invoice,Landscaping Services,4154.98,40507.74
+,07/17/2024,Invoice,INV-4710,Cook-Mitchell,Landscaping Service,Landscaping Services,3166.22,43673.96
+,08/07/2024,Invoice,INV-1681,Cook-Mitchell,Landscaping Service,Landscaping Services,3161.88,46835.84
+,09/06/2024,Payment,PAY-1360,Cook-Mitchell,Landscaping Service,Landscaping Services,1791.67,48627.51
+,07/04/2024,Payment,PAY-2320,Cook-Mitchell,Payment for previous invoice,Landscaping Services,2637.62,51265.13
+,08/21/2024,Payment,PAY-271,Cook-Mitchell,Landscaping Service,Landscaping Services,3544.5,54809.63
+,08/26/2024,Payment,PAY-3655,Cook-Mitchell,Payment for previous invoice,Landscaping Services,2849.6,57659.23
+,09/20/2024,Payment,PAY-5131,Cook-Mitchell,Landscaping Service,Landscaping Services,3695.32,61354.55
+,09/12/2024,Payment,PAY-8553,Cook-Mitchell,Payment for previous invoice,Landscaping Services,2845.69,64200.24
+,10/05/2024,Payment,PAY-4360,Cook-Mitchell,Landscaping Service,Landscaping Services,3663.31,67863.55
+,11/06/2024,Payment,PAY-239,Cook-Mitchell,Landscaping Service,Landscaping Services,3529.68,71393.23
+,12/04/2024,Payment,PAY-308,Cook-Mitchell,Landscaping Service,Landscaping Services,2866.03,74259.26
+,01/17/2025,Invoice,INV-208,Cook-Mitchell,Landscaping Service,Landscaping Services,3419.54,77678.8
+,02/01/2025,Payment,PAY-2835,Cook-Mitchell,Landscaping Service,Landscaping Services,1622.56,79301.36
+,03/02/2025,Payment,PAY-2515,Cook-Mitchell,Payment for previous invoice,Landscaping Services,3077.59,82378.95
+,03/25/2025,Invoice,INV-8116,Cook-Mitchell,Landscaping Service,Landscaping Services,1472.36,83851.31
+,04/20/2025,Payment,PAY-785,Cook-Mitchell,Landscaping Service,Landscaping Services,2340.06,86191.37
+,05/15/2025,Payment,PAY-9817,Cook-Mitchell,Payment for previous invoice,Landscaping Services,1325.12,87516.49
+,06/04/2025,Payment,PAY-8183,Cook-Mitchell,Landscaping Service,Landscaping Services,2853.28,90369.77
+,07/19/2025,Invoice,INV-5616,Cook-Mitchell,Landscaping Service,Landscaping Services,2479.01,92848.78
+,08/11/2025,Payment,PAY-3726,Cook-Mitchell,Landscaping Service,Landscaping Services,2851.96,95700.74
+,09/06/2025,Payment,PAY-2185,Cook-Mitchell,Payment for previous invoice,Landscaping Services,2231.11,97931.85
+Total for Accounts Receivable (A/R),,,,,,,77931.85,
+Inventory Asset,,,,,,,,
+,01/29/2024,Bill,BIL-3153,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,2836.66,22836.66
+,03/10/2024,Bill,BIL-3222,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,1020.16,23856.82
+,04/03/2024,Payment,PAY-8308,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-2151.61,21705.21
+,05/07/2024,Payment,PAY-5257,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1479.75,20225.46
+,05/30/2024,Invoice,INV-5133,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,671.57,20897.03
+,06/26/2024,Bill,BIL-1261,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,141.87,21038.9
+,08/04/2024,Payment,PAY-2644,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-2488.87,18550.03
+,09/16/2024,Payment,PAY-5266,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-528.22,18021.81
+,10/09/2024,Bill,BIL-959,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1429.11,16592.7
+,11/14/2024,Invoice,INV-7646,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,2981.65,19574.35
+,12/25/2024,Payment,PAY-9490,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-2437.07,17137.28
+,01/31/2025,Payment,PAY-763,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1878.94,15258.34
+,02/23/2025,Bill,BIL-8705,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,448.02,15706.36
+,03/30/2025,Payment,PAY-9288,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-878.61,14827.75
+,04/12/2025,Bill,BIL-2927,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-456.34,14371.41
+,05/05/2025,Invoice,INV-2300,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1225.59,13145.82
+,05/25/2025,Bill,BIL-2131,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1335.38,11810.44
+,06/25/2025,Bill,BIL-9838,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,-1358.17,10452.27
+,07/12/2025,Invoice,INV-5488,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,1234.51,11686.78
+,08/22/2025,Bill,BIL-174,Hayes Ltd,Inventory Purchase,Cost of Goods Sold,2859.55,14546.33
+Total for Inventory Asset,,,,,,,-5453.67,
+Prepaid Expenses,,,,,,,,
+,03/31/2024,Expense,EXP-5837,Sims-Huang,Insurance Premium,Insurance,549.43,20549.43
+,07/01/2024,Expense,EXP-613,Sims-Huang,Insurance Premium,Insurance,94.39,20643.82
+,09/29/2024,Bill,BIL-7465,Sims-Huang,Insurance Premium,Insurance,274.83,20918.65
+,12/31/2024,Expense,EXP-4277,Sims-Huang,Insurance Premium,Insurance,620.36,21539.01
+,04/02/2025,Expense,EXP-8177,Sims-Huang,Insurance Premium,Insurance,751.2,22290.21
+,06/29/2025,Bill,BIL-4518,Sims-Huang,Insurance Premium,Insurance,257.88,22548.09
+,09/24/2025,Bill,BIL-7339,Sims-Huang,Insurance Premium,Insurance,425.41,22973.5
+,12/26/2025,Expense,EXP-9440,Sims-Huang,Insurance Premium,Insurance,527.16,23500.66
+,03/26/2026,Expense,EXP-1083,Sims-Huang,Insurance Premium,Insurance,1088.28,24588.94
+,06/24/2026,Bill,BIL-5518,Sims-Huang,Insurance Premium,Insurance,265.48,24854.42
+,09/19/2026,Bill,BIL-7243,Sims-Huang,Insurance Premium,Insurance,281.66,25136.08
+,12/18/2026,Bill,BIL-2409,Sims-Huang,Insurance Premium,Insurance,1079.45,26215.53
+,03/17/2027,Expense,EXP-4949,Sims-Huang,Insurance Premium,Insurance,-291.55,25923.98
+,06/12/2027,Bill,BIL-1889,Sims-Huang,Insurance Premium,Insurance,-316.91,25607.07
+,09/13/2027,Expense,EXP-6633,Sims-Huang,Insurance Premium,Insurance,-305.61,25301.46
+,12/10/2027,Expense,EXP-3540,Sims-Huang,Insurance Premium,Insurance,1074.32,26375.78
+,03/08/2028,Expense,EXP-8565,Sims-Huang,Insurance Premium,Insurance,174.13,26549.91
+,06/09/2028,Bill,BIL-6947,Sims-Huang,Insurance Premium,Insurance,541.75,27091.66
+,09/10/2028,Bill,BIL-1284,Sims-Huang,Insurance Premium,Insurance,887.81,27979.47
+,12/09/2028,Bill,BIL-6693,Sims-Huang,Insurance Premium,Insurance,583.24,28562.71
+Total for Prepaid Expenses,,,,,,,8562.71,
+Uncategorized Asset,,,,,,,,
+,02/10/2024,Adjustment,ADJ-5948,Dunn PLC,Adjustment Entry,Other Current Assets,90.54,20090.54
+,03/26/2024,Adjustment,ADJ-1291,Dunn PLC,Adjustment Entry,Other Current Assets,13.36,20103.9
+,05/04/2024,Adjustment,ADJ-714,Dunn PLC,Adjustment Entry,Other Current Assets,16.55,20120.45
+,05/25/2024,Adjustment,ADJ-2192,Dunn PLC,Adjustment Entry,Other Current Assets,71.28,20191.73
+,06/11/2024,Adjustment,ADJ-5130,Dunn PLC,Adjustment Entry,Other Current Assets,-82.06,20109.67
+,07/06/2024,Adjustment,ADJ-2579,Dunn PLC,Adjustment Entry,Other Current Assets,-69.88,20039.79
+,08/16/2024,Adjustment,ADJ-6333,Dunn PLC,Adjustment Entry,Other Current Assets,-78.99,19960.8
+,09/03/2024,Adjustment,ADJ-3604,Dunn PLC,Adjustment Entry,Other Current Assets,44.64,20005.44
+,10/12/2024,Adjustment,ADJ-5974,Dunn PLC,Adjustment Entry,Other Current Assets,-46.44,19959.0
+,11/15/2024,Adjustment,ADJ-5118,Dunn PLC,Adjustment Entry,Other Current Assets,-64.47,19894.53
+,12/09/2024,Adjustment,ADJ-5958,Dunn PLC,Adjustment Entry,Other Current Assets,54.54,19949.07
+,12/29/2024,Adjustment,ADJ-5148,Dunn PLC,Adjustment Entry,Other Current Assets,-38.97,19910.1
+,02/14/2025,Adjustment,ADJ-1150,Dunn PLC,Adjustment Entry,Other Current Assets,92.63,20002.73
+,03/26/2025,Adjustment,ADJ-4426,Dunn PLC,Adjustment Entry,Other Current Assets,84.5,20087.23
+,05/02/2025,Adjustment,ADJ-1650,Dunn PLC,Adjustment Entry,Other Current Assets,7.82,20095.05
+,05/22/2025,Adjustment,ADJ-1618,Dunn PLC,Adjustment Entry,Other Current Assets,1.4,20096.45
+,06/24/2025,Adjustment,ADJ-2747,Dunn PLC,Adjustment Entry,Other Current Assets,14.15,20110.6
+,08/04/2025,Adjustment,ADJ-3664,Dunn PLC,Adjustment Entry,Other Current Assets,-91.92,20018.68
+,09/19/2025,Adjustment,ADJ-9503,Dunn PLC,Adjustment Entry,Other Current Assets,21.21,20039.89
+,10/29/2025,Adjustment,ADJ-3482,Dunn PLC,Adjustment Entry,Other Current Assets,94.39,20134.28
+Total for Uncategorized Asset,,,,,,,134.28,
+Undeposited Funds,,,,,,,,
+,02/13/2024,Sales Receipt,SAL-8728,Hall and Sons,Product Sale Receipt,Sales of Product Income,893.4,20893.4
+,03/15/2024,Sales Receipt,SAL-7784,Hall and Sons,Product Sale Receipt,Sales of Product Income,743.96,21637.36
+,04/26/2024,Sales Receipt,SAL-4238,Hall and Sons,Product Sale Receipt,Sales of Product Income,877.11,22514.47
+,05/22/2024,Sales Receipt,SAL-6103,Hall and Sons,Product Sale Receipt,Sales of Product Income,281.85,22796.32
+,06/18/2024,Sales Receipt,SAL-4174,Hall and Sons,Product Sale Receipt,Sales of Product Income,198.58,22994.9
+,07/12/2024,Sales Receipt,SAL-6770,Hall and Sons,Product Sale Receipt,Sales of Product Income,662.26,23657.16
+,08/20/2024,Sales Receipt,SAL-7737,Hall and Sons,Product Sale Receipt,Sales of Product Income,779.12,24436.28
+,09/29/2024,Sales Receipt,SAL-3870,Hall and Sons,Product Sale Receipt,Sales of Product Income,557.85,24994.13
+,10/20/2024,Sales Receipt,SAL-6205,Hall and Sons,Product Sale Receipt,Sales of Product Income,358.32,25352.45
+,11/14/2024,Sales Receipt,SAL-3511,Hall and Sons,Product Sale Receipt,Sales of Product Income,794.19,26146.64
+,12/13/2024,Sales Receipt,SAL-455,Hall and Sons,Product Sale Receipt,Sales of Product Income,380.58,26527.22
+,01/24/2025,Sales Receipt,SAL-4195,Hall and Sons,Product Sale Receipt,Sales of Product Income,275.68,26802.9
+,02/21/2025,Sales Receipt,SAL-6533,Hall and Sons,Product Sale Receipt,Sales of Product Income,645.03,27447.93
+,03/23/2025,Sales Receipt,SAL-4808,Hall and Sons,Product Sale Receipt,Sales of Product Income,944.25,28392.18
+,04/28/2025,Sales Receipt,SAL-3284,Hall and Sons,Product Sale Receipt,Sales of Product Income,475.7,28867.88
+,05/19/2025,Sales Receipt,SAL-3587,Hall and Sons,Product Sale Receipt,Sales of Product Income,100.95,28968.83
+,06/30/2025,Sales Receipt,SAL-6721,Hall and Sons,Product Sale Receipt,Sales of Product Income,377.87,29346.7
+,07/29/2025,Sales Receipt,SAL-1383,Hall and Sons,Product Sale Receipt,Sales of Product Income,564.72,29911.42
+,08/12/2025,Sales Receipt,SAL-4432,Hall and Sons,Product Sale Receipt,Sales of Product Income,110.98,30022.4
+,09/08/2025,Sales Receipt,SAL-6228,Hall and Sons,Product Sale Receipt,Sales of Product Income,494.29,30516.69
+Total for Undeposited Funds,,,,,,,10516.69,
+Truck,,,,,,,,
+,01/30/2024,Journal Entry,JOU-3436,Wells PLC,Monthly Depreciation,Depreciation,-194.55,19805.45
+,02/28/2024,Journal Entry,JOU-1985,Wells PLC,Monthly Depreciation,Depreciation,-183.95,19621.5
+,03/29/2024,Journal Entry,JOU-5632,Wells PLC,Monthly Depreciation,Depreciation,-270.11,19351.39
+,04/26/2024,Journal Entry,JOU-7089,Wells PLC,Monthly Depreciation,Depreciation,-160.3,19191.09
+,05/23/2024,Journal Entry,JOU-2637,Wells PLC,Monthly Depreciation,Depreciation,-216.53,18974.56
+,06/21/2024,Journal Entry,JOU-2308,Wells PLC,Monthly Depreciation,Depreciation,-248.42,18726.14
+,07/19/2024,Journal Entry,JOU-5125,Wells PLC,Monthly Depreciation,Depreciation,-214.31,18511.83
+,08/21/2024,Journal Entry,JOU-4505,Wells PLC,Monthly Depreciation,Depreciation,-197.02,18314.81
+,09/18/2024,Journal Entry,JOU-8509,Wells PLC,Monthly Depreciation,Depreciation,-104.56,18210.25
+,10/18/2024,Journal Entry,JOU-9991,Wells PLC,Monthly Depreciation,Depreciation,-287.54,17922.71
+,11/16/2024,Journal Entry,JOU-6998,Wells PLC,Monthly Depreciation,Depreciation,-112.96,17809.75
+,12/13/2024,Journal Entry,JOU-6900,Wells PLC,Monthly Depreciation,Depreciation,-240.79,17568.96
+,01/11/2025,Journal Entry,JOU-4910,Wells PLC,Monthly Depreciation,Depreciation,-218.78,17350.18
+,02/09/2025,Journal Entry,JOU-2812,Wells PLC,Monthly Depreciation,Depreciation,-208.44,17141.74
+,03/08/2025,Journal Entry,JOU-679,Wells PLC,Monthly Depreciation,Depreciation,-240.31,16901.43
+,04/04/2025,Journal Entry,JOU-2896,Wells PLC,Monthly Depreciation,Depreciation,-232.72,16668.71
+,05/06/2025,Journal Entry,JOU-5423,Wells PLC,Monthly Depreciation,Depreciation,-281.62,16387.09
+,06/05/2025,Journal Entry,JOU-1243,Wells PLC,Monthly Depreciation,Depreciation,-200.99,16186.1
+,07/02/2025,Journal Entry,JOU-7612,Wells PLC,Monthly Depreciation,Depreciation,-112.03,16074.07
+,08/01/2025,Journal Entry,JOU-5218,Wells PLC,Monthly Depreciation,Depreciation,-264.31,15809.76
+Total for Truck,,,,,,,-4190.24,
+Equipment,,,,,,,,
+,01/30/2024,Journal Entry,JOU-2396,Wells PLC,Monthly Depreciation,Depreciation,-282.14,19717.86
+,02/29/2024,Journal Entry,JOU-1530,Wells PLC,Monthly Depreciation,Depreciation,-258.25,19459.61
+,04/02/2024,Journal Entry,JOU-8277,Wells PLC,Monthly Depreciation,Depreciation,-106.96,19352.65
+,04/30/2024,Journal Entry,JOU-8550,Wells PLC,Monthly Depreciation,Depreciation,-262.93,19089.72
+,05/29/2024,Journal Entry,JOU-3733,Wells PLC,Monthly Depreciation,Depreciation,-119.66,18970.06
+,06/25/2024,Journal Entry,JOU-9807,Wells PLC,Monthly Depreciation,Depreciation,-123.46,18846.6
+,07/27/2024,Journal Entry,JOU-3620,Wells PLC,Monthly Depreciation,Depreciation,-219.94,18626.66
+,08/25/2024,Journal Entry,JOU-1355,Wells PLC,Monthly Depreciation,Depreciation,-263.59,18363.07
+,09/26/2024,Journal Entry,JOU-9896,Wells PLC,Monthly Depreciation,Depreciation,-250.75,18112.32
+,10/29/2024,Journal Entry,JOU-3315,Wells PLC,Monthly Depreciation,Depreciation,-274.66,17837.66
+,11/25/2024,Journal Entry,JOU-8981,Wells PLC,Monthly Depreciation,Depreciation,-213.93,17623.73
+,12/24/2024,Journal Entry,JOU-1902,Wells PLC,Monthly Depreciation,Depreciation,-155.97,17467.76
+,01/26/2025,Journal Entry,JOU-3132,Wells PLC,Monthly Depreciation,Depreciation,-181.88,17285.88
+,02/24/2025,Journal Entry,JOU-8218,Wells PLC,Monthly Depreciation,Depreciation,-250.12,17035.76
+,03/27/2025,Journal Entry,JOU-9231,Wells PLC,Monthly Depreciation,Depreciation,-153.2,16882.56
+,04/24/2025,Journal Entry,JOU-8704,Wells PLC,Monthly Depreciation,Depreciation,-254.77,16627.79
+,05/26/2025,Journal Entry,JOU-1211,Wells PLC,Monthly Depreciation,Depreciation,-201.99,16425.8
+,06/28/2025,Journal Entry,JOU-9048,Wells PLC,Monthly Depreciation,Depreciation,-139.31,16286.49
+,07/28/2025,Journal Entry,JOU-1057,Wells PLC,Monthly Depreciation,Depreciation,-137.36,16149.13
+,08/28/2025,Journal Entry,JOU-3873,Wells PLC,Monthly Depreciation,Depreciation,-203.7,15945.43
+Total for Equipment,,,,,,,-4054.57,
+Accounts Payable (A/P),,,,,,,,
+,03/28/2024,Bill,BIL-9198,Sims-Huang,Insurance Premium,Insurance,988.24,20988.24
+,05/07/2024,Bill,BIL-3531,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,1479.61,22467.85
+,08/02/2024,Bill Payment,BIL-2562,Sims-Huang,Insurance Premium,Insurance,744.13,23211.98
+,10/28/2024,Bill,BIL-6884,Sims-Huang,Insurance Premium,Insurance,993.38,24205.36
+,11/16/2024,Bill,BIL-6746,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-316.68,23888.68
+,12/22/2024,Bill,BIL-2242,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-75.74,23812.94
+,03/25/2025,Bill Payment,BIL-4287,Sims-Huang,Insurance Premium,Insurance,574.61,24387.55
+,04/16/2025,Bill Payment,BIL-2016,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,230.3,24617.85
+,07/15/2025,Bill Payment,BIL-5151,Sims-Huang,Insurance Premium,Insurance,-355.41,24262.44
+,10/15/2025,Bill Payment,BIL-5693,Sims-Huang,Insurance Premium,Insurance,-16.4,24246.04
+,01/16/2026,Bill Payment,BIL-5102,Sims-Huang,Insurance Premium,Insurance,155.46,24401.5
+,02/28/2026,Bill Payment,BIL-3625,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-236.14,24165.36
+,05/26/2026,Bill,BIL-9401,Sims-Huang,Insurance Premium,Insurance,683.63,24848.99
+,06/13/2026,Bill Payment,BIL-6446,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-314.56,24534.43
+,09/09/2026,Bill Payment,BIL-2737,Sims-Huang,Insurance Premium,Insurance,709.96,25244.39
+,10/11/2026,Bill,BIL-6502,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,-215.58,25028.81
+,11/18/2026,Bill Payment,BIL-8207,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,1098.65,26127.46
+,02/14/2027,Bill Payment,BIL-9907,Sims-Huang,Insurance Premium,Insurance,-344.23,25783.23
+,03/18/2027,Bill,BIL-2301,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,321.81,26105.04
+,04/14/2027,Bill Payment,BIL-504,Bartlett LLC,Utility Expense,Utilities:Gas and Electric,40.62,26145.66
+Total for Accounts Payable (A/P),,,,,,,6145.66,

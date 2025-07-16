@@ -1,36 +1,262 @@
 account,parent_account,date,transaction_type,num,name,memo_description,split,amount,balance
-Checking,,2024-01-01,Deposit,9001,Legacy Contract,Annual maintenance contract,Accounts Receivable (A/R),5000.0,20000.0
-Checking,,2024-02-15,Invoice,INV-2024-001,Corporate Plaza,Spring landscape preparation,Landscaping Services,3500.0,23500.0
-Checking,,2024-03-20,Check,2401,Desert Plants Inc,Purchase of plants,Inventory Asset,-1200.0,22300.0
-Checking,,2024-04-10,Payment,1003,Corporate Plaza,Payment for INV-2024-001,Checking,3500.0,25800.0
-Checking,,2024-05-05,Expense,EXP-2024-005,Fuel Express,Fuel for trucks,Automobile:Fuel,-300.0,25500.0
-Checking,,2024-06-18,Check,2402,Southwest Insurance,Quarterly premium,Insurance,-1200.0,24300.0
-Checking,,2024-07-22,Invoice,INV-2024-006,Sunset Apartments,Summer maintenance,Landscaping Services,4200.0,28500.0
-Checking,,2024-08-14,Check,2403,Verde Supply Co,Materials for summer jobs,Inventory Asset,-1500.0,27000.0
-Checking,,2024-09-30,Deposit,9002,Various Clients,September payments,Accounts Receivable (A/R),4800.0,31800.0
-Checking,,2024-10-10,Journal Entry,JE-2024-012,ClientName1,Monthly Depreciation,Depreciation,-364.58,31435.42
-Checking,,2024-11-15,Payment,1004,Sunset Apartments,Payment for summer maintenance,Checking,4200.0,35635.42
-Checking,,2024-12-01,Invoice,INV-2024-010,Wilson Property Management,Winter prep contract,Landscaping Services,3000.0,38635.42
-Checking,,2024-12-31,Journal Entry,JE-2024-013,,Monthly Depreciation,Depreciation,-243.75,38391.67
-Checking,,2025-01-15,Check,2505,Desert Plants Inc,New Year plant stock,Inventory Asset,-1300.0,37091.67
-Checking,,2025-02-10,Invoice,INV-2025-011,Corporate Plaza,Spring prep,Landscaping Services,3500.0,40591.67
-Checking,,2025-03-01,Deposit,9003,Corporate Plaza,Payment spring prep,Accounts Receivable (A/R),3500.0,44091.67
-Checking,,2025-04-05,Expense,EXP-2025-010,Fuel Express,Fuel for trucks,Automobile:Fuel,-350.0,43741.67
-Checking,,2025-05-10,Check,2506,Phoenix Utilities,Monthly utility bill,Utilities:Gas and Electric,-295.0,43446.67
-Checking,,2025-06-20,Invoice,INV-2025-013,Sunset Apartments,Pre-summer maintenance,Landscaping Services,4100.0,47546.67
-Savings,,2024-01-01,Transfer,T0001,Initial Funding,Seed savings account,Checking,10000.0,10000.0
-Savings,,2024-12-31,Interest,INT-2024-001,Bank,Annual interest earned,Interest Income,250.0,10250.0
-Accounts Receivable (A/R),,2024-03-10,Invoice,INV-2024-015,Corporate Plaza,Spring cleanup,Landscaping Services,3000.0,21542.67
-Accounts Receivable (A/R),,2024-04-10,Payment,PAY-2024-010,Corporate Plaza,Payment received for spring cleanup,Checking,-3000.0,18542.67
-Inventory Asset,,2024-02-15,Bill,BILL-2024-005,Desert Plants Inc,Plant stock replenishment,Checking,1000.0,9945.5
-Inventory Asset,,2024-06-01,Invoice,INV-2024-020,Wilson Property Management,Materials for new garden,Cost of Goods Sold,-750.0,9195.5
-Prepaid Expenses,,2024-01-01,Bill,BILL-2024-001,Southwest Insurance,Annual insurance premium,Insurance,1200.0,4400.0
-Prepaid Expenses,,2024-06-30,Expense,EXP-2024-012,Monthly Allocation,Monthly insurance allocation,Insurance,-400.0,4000.0
-Uncategorized Asset,,2024-05-05,Adjustment,ADJ-2024-001,Miscellaneous,Adjustment entry,Other Current Assets,50.0,500.0
-Undeposited Funds,,2024-04-20,Sales Receipt,SR-2024-010,Walk-in Customer,Spring sale,Sales of Product Income,200.0,3050.0
-Truck,,,Beginning Balance,,,,,,35000.0
-Truck,,2024-10-10,Journal Entry,JE-2024-012,,Monthly Depreciation,Depreciation,-364.58,34635.42
-Equipment,,,Beginning Balance,,,,,,22500.0
-Equipment,,2024-12-31,Journal Entry,JE-2024-013,,Monthly Depreciation,Depreciation,-243.75,22256.25
-Accounts Payable (A/P),,2024-01-15,Bill,BILL-2024-002,Phoenix Utilities,Monthly utility bill,Utilities:Gas and Electric,295.0,5120.33
-Accounts Payable (A/P),,2024-02-01,Bill Payment,BPAY-2024-003,Phoenix Utilities,Utility bill payment,Checking,-295.0,4825.33
+Checking,,2024-02-10,Check,CHE-1172,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-859.46,19140.54
+Checking,,2024-03-13,Expense,EXP-4031,"Lewis, Pham and Beasley",Marketing Spend,Marketing Expense,3398.1,22538.64
+Checking,,2024-04-04,Deposit,DEP-9246,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,4380.58,26919.22
+Checking,,2024-04-18,Check,CHE-4255,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,477.21,27396.43
+Checking,,2024-05-31,Check,CHE-2063,"Lewis, Pham and Beasley",Marketing Spend,Marketing Expense,3830.0,31226.43
+Checking,,2024-06-22,Expense,EXP-9086,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,3552.28,34778.71
+Checking,,2024-07-21,Payment,PAY-5134,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,-1796.43,32982.28
+Checking,,2024-08-23,Deposit,DEP-9357,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-335.37,32646.91
+Checking,,2024-10-09,Payment,PAY-8082,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-4176.98,28469.93
+Checking,,2024-11-14,Check,CHE-4795,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,2055.64,30525.57
+Checking,,2024-11-29,Expense,EXP-256,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,288.83,30814.4
+Checking,,2024-12-14,Check,CHE-288,"Lewis, Pham and Beasley",Marketing Spend,Marketing Expense,3279.8,34094.2
+Checking,,2025-01-14,Payment,PAY-8400,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,-1783.7,32310.5
+Checking,,2025-02-25,Expense,EXP-5883,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,3012.93,35323.43
+Checking,,2025-03-29,Check,CHE-6656,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,2837.66,38161.09
+Checking,,2025-05-09,Expense,EXP-4994,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,3967.44,42128.53
+Checking,,2025-06-18,Deposit,DEP-890,"Lewis, Pham and Beasley",Marketing Spend,Marketing Expense,-965.46,41163.07
+Checking,,2025-07-15,Payment,PAY-900,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-669.93,40493.14
+Checking,,2025-08-23,Expense,EXP-6997,Salinas PLC,Fuel Expense for Truck,Automobile:Fuel,1943.11,42436.25
+Checking,,2025-09-16,Check,CHE-6498,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,2740.37,45176.62
+Checking,,2025-01-01,Budget,BUD-01-929,Internal Planning,Budget for Q1 - Utilities:Gas and Electric,Utilities:Gas and Electric,2559.87,0.0
+Checking,,2025-01-01,Budget,BUD-01-0,Internal Planning,Budget for Q1 - Marketing Expense,Marketing Expense,3565.46,0.0
+Checking,,2025-01-01,Budget,BUD-01-200,Internal Planning,Budget for Q1 - Automobile:Fuel,Automobile:Fuel,4510.33,0.0
+Checking,,2025-04-01,Budget,BUD-02-47,Internal Planning,Budget for Q2 - Utilities:Gas and Electric,Utilities:Gas and Electric,3996.24,0.0
+Checking,,2025-04-01,Budget,BUD-02-176,Internal Planning,Budget for Q2 - Marketing Expense,Marketing Expense,1600.83,0.0
+Checking,,2025-04-01,Budget,BUD-02-841,Internal Planning,Budget for Q2 - Automobile:Fuel,Automobile:Fuel,1180.0,0.0
+Checking,,2025-07-01,Budget,BUD-03-861,Internal Planning,Budget for Q3 - Utilities:Gas and Electric,Utilities:Gas and Electric,2457.05,0.0
+Checking,,2025-07-01,Budget,BUD-03-275,Internal Planning,Budget for Q3 - Marketing Expense,Marketing Expense,2826.81,0.0
+Checking,,2025-07-01,Budget,BUD-03-759,Internal Planning,Budget for Q3 - Automobile:Fuel,Automobile:Fuel,4609.2,0.0
+Checking,,2025-10-01,Budget,BUD-04-75,Internal Planning,Budget for Q4 - Utilities:Gas and Electric,Utilities:Gas and Electric,4255.81,0.0
+Checking,,2025-10-01,Budget,BUD-04-532,Internal Planning,Budget for Q4 - Marketing Expense,Marketing Expense,4434.35,0.0
+Checking,,2025-10-01,Budget,BUD-04-733,Internal Planning,Budget for Q4 - Automobile:Fuel,Automobile:Fuel,4625.97,0.0
+Savings,,2024-01-18,Interest,INT-4237,Brown Ltd,Interest Income Transaction,Interest Income,392.46,20392.46
+Savings,,2024-02-07,Deposit,DEP-9448,Brown Ltd,Interest Income Transaction,Interest Income,143.83,20536.29
+Savings,,2024-03-07,Deposit,DEP-1816,Brown Ltd,Interest Income Transaction,Interest Income,107.26,20643.55
+Savings,,2024-03-28,Interest,INT-7691,Brown Ltd,Interest Income Transaction,Interest Income,230.21,20873.76
+Savings,,2024-04-29,Interest,INT-1595,Brown Ltd,Interest Income Transaction,Interest Income,286.1,21159.86
+Savings,,2024-06-15,Deposit,DEP-2509,Brown Ltd,Interest Income Transaction,Interest Income,407.59,21567.45
+Savings,,2024-07-18,Deposit,DEP-4744,Brown Ltd,Interest Income Transaction,Interest Income,373.22,21940.67
+Savings,,2024-08-10,Interest,INT-7486,Brown Ltd,Interest Income Transaction,Interest Income,404.1,22344.77
+Savings,,2024-09-08,Interest,INT-6323,Brown Ltd,Interest Income Transaction,Interest Income,62.48,22407.25
+Savings,,2024-10-01,Deposit,DEP-5,Brown Ltd,Interest Income Transaction,Interest Income,359.32,22766.57
+Savings,,2024-11-09,Interest,INT-2819,Brown Ltd,Interest Income Transaction,Interest Income,453.92,23220.49
+Savings,,2024-12-18,Deposit,DEP-1764,Brown Ltd,Interest Income Transaction,Interest Income,200.64,23421.13
+Savings,,2025-01-24,Interest,INT-1534,Brown Ltd,Interest Income Transaction,Interest Income,137.41,23558.54
+Savings,,2025-03-01,Deposit,DEP-7737,Brown Ltd,Interest Income Transaction,Interest Income,231.56,23790.1
+Savings,,2025-03-25,Deposit,DEP-646,Brown Ltd,Interest Income Transaction,Interest Income,351.47,24141.57
+Savings,,2025-04-18,Interest,INT-7787,Brown Ltd,Interest Income Transaction,Interest Income,315.75,24457.32
+Savings,,2025-05-16,Deposit,DEP-9814,Brown Ltd,Interest Income Transaction,Interest Income,215.81,24673.13
+Savings,,2025-06-16,Interest,INT-93,Brown Ltd,Interest Income Transaction,Interest Income,125.9,24799.03
+Savings,,2025-07-25,Deposit,DEP-3208,Brown Ltd,Interest Income Transaction,Interest Income,232.21,25031.24
+Savings,,2025-08-31,Deposit,DEP-1594,Brown Ltd,Interest Income Transaction,Interest Income,189.69,25220.93
+Savings,,2025-01-01,Budget,BUD-01-696,Internal Planning,Budget for Q1 - Interest Income,Interest Income,3354.42,0.0
+Savings,,2025-04-01,Budget,BUD-02-654,Internal Planning,Budget for Q2 - Interest Income,Interest Income,1570.47,0.0
+Savings,,2025-07-01,Budget,BUD-03-309,Internal Planning,Budget for Q3 - Interest Income,Interest Income,1421.65,0.0
+Savings,,2025-10-01,Budget,BUD-04-338,Internal Planning,Budget for Q4 - Interest Income,Interest Income,2775.94,0.0
+Accounts Receivable (A/R),,2024-01-20,Invoice,INV-4880,Chapman PLC,Landscaping Service,Landscaping Services,3553.27,23553.27
+Accounts Receivable (A/R),,2024-02-25,Payment,PAY-2684,Chapman PLC,Landscaping Service,Landscaping Services,4701.55,28254.82
+Accounts Receivable (A/R),,2024-03-06,Payment,PAY-3317,Chapman PLC,Payment for previous invoice,Landscaping Services,3197.94,28254.82
+Accounts Receivable (A/R),,2024-03-30,Invoice,INV-5375,Chapman PLC,Landscaping Service,Landscaping Services,4770.51,33025.33
+Accounts Receivable (A/R),,2024-04-14,Payment,PAY-1173,Chapman PLC,Landscaping Service,Landscaping Services,4412.55,37437.88
+Accounts Receivable (A/R),,2024-05-27,Payment,PAY-1238,Chapman PLC,Payment for previous invoice,Landscaping Services,4293.46,37437.88
+Accounts Receivable (A/R),,2024-07-07,Payment,PAY-5166,Chapman PLC,Landscaping Service,Landscaping Services,4721.84,42159.72
+Accounts Receivable (A/R),,2024-08-05,Invoice,INV-3791,Chapman PLC,Landscaping Service,Landscaping Services,4561.56,46721.28
+Accounts Receivable (A/R),,2024-09-05,Invoice,INV-6363,Chapman PLC,Landscaping Service,Landscaping Services,1130.08,47851.36
+Accounts Receivable (A/R),,2024-09-22,Payment,PAY-7741,Chapman PLC,Landscaping Service,Landscaping Services,3691.28,51542.64
+Accounts Receivable (A/R),,2024-09-24,Payment,PAY-6010,Chapman PLC,Payment for previous invoice,Landscaping Services,4105.4,51542.64
+Accounts Receivable (A/R),,2024-11-06,Invoice,INV-4962,Chapman PLC,Landscaping Service,Landscaping Services,2333.81,53876.45
+Accounts Receivable (A/R),,2024-12-24,Invoice,INV-2568,Chapman PLC,Landscaping Service,Landscaping Services,1099.22,54975.67
+Accounts Receivable (A/R),,2025-02-08,Payment,PAY-3158,Chapman PLC,Landscaping Service,Landscaping Services,3063.48,58039.15
+Accounts Receivable (A/R),,2024-11-02,Payment,PAY-1087,Chapman PLC,Payment for previous invoice,Landscaping Services,1017.07,58039.15
+Accounts Receivable (A/R),,2024-11-27,Invoice,INV-2234,Chapman PLC,Landscaping Service,Landscaping Services,3565.26,61604.41
+Accounts Receivable (A/R),,2025-01-06,Payment,PAY-9593,Chapman PLC,Landscaping Service,Landscaping Services,2634.12,64238.53
+Accounts Receivable (A/R),,2025-01-05,Payment,PAY-3069,Chapman PLC,Payment for previous invoice,Landscaping Services,2100.43,64238.53
+Accounts Receivable (A/R),,2025-02-13,Payment,PAY-4078,Chapman PLC,Landscaping Service,Landscaping Services,2283.87,66522.4
+Accounts Receivable (A/R),,2025-02-10,Payment,PAY-6270,Chapman PLC,Payment for previous invoice,Landscaping Services,989.3,66522.4
+Accounts Receivable (A/R),,2025-03-02,Invoice,INV-7712,Chapman PLC,Landscaping Service,Landscaping Services,4772.73,71295.13
+Accounts Receivable (A/R),,2025-04-14,Payment,PAY-5569,Chapman PLC,Landscaping Service,Landscaping Services,1736.68,73031.81
+Accounts Receivable (A/R),,2025-01-21,Payment,PAY-3678,Chapman PLC,Payment for previous invoice,Landscaping Services,3208.73,73031.81
+Accounts Receivable (A/R),,2025-02-12,Invoice,INV-2410,Chapman PLC,Landscaping Service,Landscaping Services,4126.98,77158.79
+Accounts Receivable (A/R),,2025-03-20,Payment,PAY-7479,Chapman PLC,Landscaping Service,Landscaping Services,3871.9,81030.69
+Accounts Receivable (A/R),,2025-04-15,Payment,PAY-1083,Chapman PLC,Payment for previous invoice,Landscaping Services,4295.46,81030.69
+Accounts Receivable (A/R),,2025-05-16,Payment,PAY-6293,Chapman PLC,Landscaping Service,Landscaping Services,4556.18,85586.87
+Accounts Receivable (A/R),,2025-04-08,Payment,PAY-2695,Chapman PLC,Payment for previous invoice,Landscaping Services,3714.28,85586.87
+Accounts Receivable (A/R),,2025-05-12,Invoice,INV-4861,Chapman PLC,Landscaping Service,Landscaping Services,1549.08,87135.95
+Accounts Receivable (A/R),,2025-01-01,Budget,BUD-01-477,Internal Planning,Budget for Q1 - Landscaping Services,Landscaping Services,3521.32,0.0
+Accounts Receivable (A/R),,2025-04-01,Budget,BUD-02-74,Internal Planning,Budget for Q2 - Landscaping Services,Landscaping Services,4372.85,0.0
+Accounts Receivable (A/R),,2025-07-01,Budget,BUD-03-481,Internal Planning,Budget for Q3 - Landscaping Services,Landscaping Services,2347.57,0.0
+Accounts Receivable (A/R),,2025-10-01,Budget,BUD-04-747,Internal Planning,Budget for Q4 - Landscaping Services,Landscaping Services,3072.52,0.0
+Inventory Asset,,2024-02-04,Bill,BIL-6221,Mann-Brown,Inventory Purchase,Cost of Goods Sold,722.4,20722.4
+Inventory Asset,,2024-02-26,Payment,PAY-7182,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-2108.68,18613.72
+Inventory Asset,,2024-03-31,Bill,BIL-11,Mann-Brown,Inventory Purchase,Cost of Goods Sold,240.35,18854.07
+Inventory Asset,,2024-04-20,Invoice,INV-4760,Mann-Brown,Inventory Purchase,Cost of Goods Sold,423.12,19277.19
+Inventory Asset,,2024-05-10,Invoice,INV-6106,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-873.08,18404.11
+Inventory Asset,,2024-06-21,Invoice,INV-2835,Mann-Brown,Inventory Purchase,Cost of Goods Sold,1027.32,19431.43
+Inventory Asset,,2024-07-07,Bill,BIL-8019,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-498.11,18933.32
+Inventory Asset,,2024-07-24,Bill,BIL-5736,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-212.03,18721.29
+Inventory Asset,,2024-09-04,Invoice,INV-8175,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-1125.32,17595.97
+Inventory Asset,,2024-10-09,Bill,BIL-4499,Mann-Brown,Inventory Purchase,Cost of Goods Sold,2798.73,20394.7
+Inventory Asset,,2024-11-13,Payment,PAY-9081,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-1893.91,18500.79
+Inventory Asset,,2024-12-09,Payment,PAY-8356,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-522.88,17977.91
+Inventory Asset,,2025-01-18,Invoice,INV-1469,Mann-Brown,Inventory Purchase,Cost of Goods Sold,2480.31,20458.22
+Inventory Asset,,2025-02-03,Invoice,INV-9593,Mann-Brown,Inventory Purchase,Cost of Goods Sold,1611.07,22069.29
+Inventory Asset,,2025-03-03,Payment,PAY-2685,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-636.87,21432.42
+Inventory Asset,,2025-03-31,Invoice,INV-7821,Mann-Brown,Inventory Purchase,Cost of Goods Sold,1699.45,23131.87
+Inventory Asset,,2025-05-07,Payment,PAY-5838,Mann-Brown,Inventory Purchase,Cost of Goods Sold,-2932.81,20199.06
+Inventory Asset,,2025-05-24,Bill,BIL-1362,Mann-Brown,Inventory Purchase,Cost of Goods Sold,2035.64,22234.7
+Inventory Asset,,2025-06-07,Invoice,INV-5204,Mann-Brown,Inventory Purchase,Cost of Goods Sold,825.59,23060.29
+Inventory Asset,,2025-07-17,Bill,BIL-7938,Mann-Brown,Inventory Purchase,Cost of Goods Sold,306.62,23366.91
+Inventory Asset,,2025-01-01,Budget,BUD-01-264,Internal Planning,Budget for Q1 - Cost of Goods Sold,Cost of Goods Sold,1253.9,0.0
+Inventory Asset,,2025-04-01,Budget,BUD-02-221,Internal Planning,Budget for Q2 - Cost of Goods Sold,Cost of Goods Sold,4510.02,0.0
+Inventory Asset,,2025-07-01,Budget,BUD-03-943,Internal Planning,Budget for Q3 - Cost of Goods Sold,Cost of Goods Sold,3883.86,0.0
+Inventory Asset,,2025-10-01,Budget,BUD-04-801,Internal Planning,Budget for Q4 - Cost of Goods Sold,Cost of Goods Sold,2655.04,0.0
+Prepaid Expenses,,2024-04-03,Bill,BIL-8181,Simmons PLC,Insurance Premium,Insurance,-195.29,19804.71
+Prepaid Expenses,,2024-07-01,Expense,EXP-4488,Simmons PLC,Insurance Premium,Insurance,174.9,19979.61
+Prepaid Expenses,,2024-10-02,Expense,EXP-469,Simmons PLC,Insurance Premium,Insurance,681.51,20661.12
+Prepaid Expenses,,2025-01-03,Bill,BIL-8019,Simmons PLC,Insurance Premium,Insurance,1138.44,21799.56
+Prepaid Expenses,,2025-04-06,Expense,EXP-6800,Simmons PLC,Insurance Premium,Insurance,450.79,22250.35
+Prepaid Expenses,,2025-07-07,Expense,EXP-3772,Simmons PLC,Insurance Premium,Insurance,30.15,22280.5
+Prepaid Expenses,,2025-10-02,Bill,BIL-6156,Simmons PLC,Insurance Premium,Insurance,408.55,22689.05
+Prepaid Expenses,,2025-12-31,Expense,EXP-7862,Simmons PLC,Insurance Premium,Insurance,-114.05,22575.0
+Prepaid Expenses,,2026-03-31,Expense,EXP-5714,Simmons PLC,Insurance Premium,Insurance,-256.72,22318.28
+Prepaid Expenses,,2026-07-01,Expense,EXP-125,Simmons PLC,Insurance Premium,Insurance,-55.1,22263.18
+Prepaid Expenses,,2026-09-29,Expense,EXP-9545,Simmons PLC,Insurance Premium,Insurance,296.29,22559.47
+Prepaid Expenses,,2026-12-26,Expense,EXP-5431,Simmons PLC,Insurance Premium,Insurance,-349.56,22209.91
+Prepaid Expenses,,2027-03-24,Expense,EXP-7838,Simmons PLC,Insurance Premium,Insurance,631.14,22841.05
+Prepaid Expenses,,2027-06-22,Expense,EXP-1735,Simmons PLC,Insurance Premium,Insurance,240.41,23081.46
+Prepaid Expenses,,2027-09-21,Expense,EXP-1787,Simmons PLC,Insurance Premium,Insurance,-298.22,22783.24
+Prepaid Expenses,,2027-12-21,Expense,EXP-5651,Simmons PLC,Insurance Premium,Insurance,359.27,23142.51
+Prepaid Expenses,,2028-03-18,Bill,BIL-9740,Simmons PLC,Insurance Premium,Insurance,567.88,23710.39
+Prepaid Expenses,,2028-06-13,Expense,EXP-2092,Simmons PLC,Insurance Premium,Insurance,977.77,24688.16
+Prepaid Expenses,,2028-09-14,Expense,EXP-7089,Simmons PLC,Insurance Premium,Insurance,1118.42,25806.58
+Prepaid Expenses,,2028-12-14,Bill,BIL-5009,Simmons PLC,Insurance Premium,Insurance,449.47,26256.05
+Prepaid Expenses,,2025-01-01,Budget,BUD-01-94,Internal Planning,Budget for Q1 - Insurance,Insurance,1877.97,0.0
+Prepaid Expenses,,2025-04-01,Budget,BUD-02-622,Internal Planning,Budget for Q2 - Insurance,Insurance,4239.8,0.0
+Prepaid Expenses,,2025-07-01,Budget,BUD-03-719,Internal Planning,Budget for Q3 - Insurance,Insurance,4395.3,0.0
+Prepaid Expenses,,2025-10-01,Budget,BUD-04-710,Internal Planning,Budget for Q4 - Insurance,Insurance,4629.38,0.0
+Uncategorized Asset,,2024-01-20,Adjustment,ADJ-4527,Morales and Sons,Adjustment Entry,Other Current Assets,-75.65,19924.35
+Uncategorized Asset,,2024-02-22,Adjustment,ADJ-4882,Morales and Sons,Adjustment Entry,Other Current Assets,-6.94,19917.41
+Uncategorized Asset,,2024-03-20,Adjustment,ADJ-3885,Morales and Sons,Adjustment Entry,Other Current Assets,10.3,19927.71
+Uncategorized Asset,,2024-04-29,Adjustment,ADJ-1032,Morales and Sons,Adjustment Entry,Other Current Assets,-84.98,19842.73
+Uncategorized Asset,,2024-05-15,Adjustment,ADJ-3535,Morales and Sons,Adjustment Entry,Other Current Assets,60.87,19903.6
+Uncategorized Asset,,2024-06-21,Adjustment,ADJ-5706,Morales and Sons,Adjustment Entry,Other Current Assets,80.28,19983.88
+Uncategorized Asset,,2024-07-19,Adjustment,ADJ-1819,Morales and Sons,Adjustment Entry,Other Current Assets,-95.46,19888.42
+Uncategorized Asset,,2024-08-23,Adjustment,ADJ-9214,Morales and Sons,Adjustment Entry,Other Current Assets,67.36,19955.78
+Uncategorized Asset,,2024-09-30,Adjustment,ADJ-3433,Morales and Sons,Adjustment Entry,Other Current Assets,-79.65,19876.13
+Uncategorized Asset,,2024-10-14,Adjustment,ADJ-2590,Morales and Sons,Adjustment Entry,Other Current Assets,-36.91,19839.22
+Uncategorized Asset,,2024-11-14,Adjustment,ADJ-2754,Morales and Sons,Adjustment Entry,Other Current Assets,-89.51,19749.71
+Uncategorized Asset,,2024-12-05,Adjustment,ADJ-1812,Morales and Sons,Adjustment Entry,Other Current Assets,-67.63,19682.08
+Uncategorized Asset,,2024-12-29,Adjustment,ADJ-6658,Morales and Sons,Adjustment Entry,Other Current Assets,92.55,19774.63
+Uncategorized Asset,,2025-01-25,Adjustment,ADJ-7060,Morales and Sons,Adjustment Entry,Other Current Assets,-68.14,19706.49
+Uncategorized Asset,,2025-02-18,Adjustment,ADJ-3145,Morales and Sons,Adjustment Entry,Other Current Assets,43.91,19750.4
+Uncategorized Asset,,2025-03-31,Adjustment,ADJ-7951,Morales and Sons,Adjustment Entry,Other Current Assets,-51.15,19699.25
+Uncategorized Asset,,2025-04-29,Adjustment,ADJ-8093,Morales and Sons,Adjustment Entry,Other Current Assets,46.59,19745.84
+Uncategorized Asset,,2025-06-11,Adjustment,ADJ-5679,Morales and Sons,Adjustment Entry,Other Current Assets,13.09,19758.93
+Uncategorized Asset,,2025-07-24,Adjustment,ADJ-9199,Morales and Sons,Adjustment Entry,Other Current Assets,20.39,19779.32
+Uncategorized Asset,,2025-09-04,Adjustment,ADJ-7850,Morales and Sons,Adjustment Entry,Other Current Assets,16.87,19796.19
+Uncategorized Asset,,2025-01-01,Budget,BUD-01-632,Internal Planning,Budget for Q1 - Other Current Assets,Other Current Assets,1548.64,0.0
+Uncategorized Asset,,2025-04-01,Budget,BUD-02-804,Internal Planning,Budget for Q2 - Other Current Assets,Other Current Assets,2986.08,0.0
+Uncategorized Asset,,2025-07-01,Budget,BUD-03-937,Internal Planning,Budget for Q3 - Other Current Assets,Other Current Assets,4256.52,0.0
+Uncategorized Asset,,2025-10-01,Budget,BUD-04-538,Internal Planning,Budget for Q4 - Other Current Assets,Other Current Assets,3382.59,0.0
+Undeposited Funds,,2024-01-30,Sales Receipt,SAL-353,Cox Ltd,Product Sale Receipt,Sales of Product Income,546.33,20546.33
+Undeposited Funds,,2024-02-17,Sales Receipt,SAL-3955,Cox Ltd,Product Sale Receipt,Sales of Product Income,186.39,20732.72
+Undeposited Funds,,2024-03-10,Sales Receipt,SAL-2578,Cox Ltd,Product Sale Receipt,Sales of Product Income,133.17,20865.89
+Undeposited Funds,,2024-04-05,Sales Receipt,SAL-988,Cox Ltd,Product Sale Receipt,Sales of Product Income,471.66,21337.55
+Undeposited Funds,,2024-05-11,Sales Receipt,SAL-8373,Cox Ltd,Product Sale Receipt,Sales of Product Income,660.18,21997.73
+Undeposited Funds,,2024-06-08,Sales Receipt,SAL-2303,Cox Ltd,Product Sale Receipt,Sales of Product Income,775.5,22773.23
+Undeposited Funds,,2024-07-20,Sales Receipt,SAL-7405,Cox Ltd,Product Sale Receipt,Sales of Product Income,217.2,22990.43
+Undeposited Funds,,2024-08-23,Sales Receipt,SAL-4942,Cox Ltd,Product Sale Receipt,Sales of Product Income,707.54,23697.97
+Undeposited Funds,,2024-09-27,Sales Receipt,SAL-2435,Cox Ltd,Product Sale Receipt,Sales of Product Income,278.89,23976.86
+Undeposited Funds,,2024-11-12,Sales Receipt,SAL-2101,Cox Ltd,Product Sale Receipt,Sales of Product Income,130.16,24107.02
+Undeposited Funds,,2024-12-19,Sales Receipt,SAL-6556,Cox Ltd,Product Sale Receipt,Sales of Product Income,316.53,24423.55
+Undeposited Funds,,2025-01-06,Sales Receipt,SAL-8148,Cox Ltd,Product Sale Receipt,Sales of Product Income,757.19,25180.74
+Undeposited Funds,,2025-02-17,Sales Receipt,SAL-6978,Cox Ltd,Product Sale Receipt,Sales of Product Income,355.77,25536.51
+Undeposited Funds,,2025-03-06,Sales Receipt,SAL-5037,Cox Ltd,Product Sale Receipt,Sales of Product Income,135.04,25671.55
+Undeposited Funds,,2025-04-06,Sales Receipt,SAL-8303,Cox Ltd,Product Sale Receipt,Sales of Product Income,275.86,25947.41
+Undeposited Funds,,2025-05-07,Sales Receipt,SAL-874,Cox Ltd,Product Sale Receipt,Sales of Product Income,444.83,26392.24
+Undeposited Funds,,2025-06-05,Sales Receipt,SAL-9105,Cox Ltd,Product Sale Receipt,Sales of Product Income,403.08,26795.32
+Undeposited Funds,,2025-06-29,Sales Receipt,SAL-3609,Cox Ltd,Product Sale Receipt,Sales of Product Income,650.28,27445.6
+Undeposited Funds,,2025-07-31,Sales Receipt,SAL-2847,Cox Ltd,Product Sale Receipt,Sales of Product Income,123.2,27568.8
+Undeposited Funds,,2025-09-05,Sales Receipt,SAL-7437,Cox Ltd,Product Sale Receipt,Sales of Product Income,918.32,28487.12
+Undeposited Funds,,2025-01-01,Budget,BUD-01-985,Internal Planning,Budget for Q1 - Sales of Product Income,Sales of Product Income,3261.75,0.0
+Undeposited Funds,,2025-04-01,Budget,BUD-02-236,Internal Planning,Budget for Q2 - Sales of Product Income,Sales of Product Income,4538.01,0.0
+Undeposited Funds,,2025-07-01,Budget,BUD-03-194,Internal Planning,Budget for Q3 - Sales of Product Income,Sales of Product Income,3186.17,0.0
+Undeposited Funds,,2025-10-01,Budget,BUD-04-158,Internal Planning,Budget for Q4 - Sales of Product Income,Sales of Product Income,4485.34,0.0
+Truck,,2024-02-01,Journal Entry,JOU-8292,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-125.07,19874.93
+Truck,,2024-03-05,Journal Entry,JOU-89,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-131.99,19742.94
+Truck,,2024-04-02,Journal Entry,JOU-7704,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-295.05,19447.89
+Truck,,2024-05-05,Journal Entry,JOU-5850,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-196.79,19251.1
+Truck,,2024-06-06,Journal Entry,JOU-9506,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-134.62,19116.48
+Truck,,2024-07-04,Journal Entry,JOU-5307,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-247.47,18869.01
+Truck,,2024-08-01,Journal Entry,JOU-1866,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-189.49,18679.52
+Truck,,2024-08-31,Journal Entry,JOU-3192,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-150.12,18529.4
+Truck,,2024-10-02,Journal Entry,JOU-5342,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-123.86,18405.54
+Truck,,2024-10-31,Journal Entry,JOU-5990,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-112.85,18292.69
+Truck,,2024-12-03,Journal Entry,JOU-7526,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-288.24,18004.45
+Truck,,2025-01-04,Journal Entry,JOU-9546,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-228.66,17775.79
+Truck,,2025-02-03,Journal Entry,JOU-3935,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-221.59,17554.2
+Truck,,2025-03-06,Journal Entry,JOU-7701,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-219.93,17334.27
+Truck,,2025-04-02,Journal Entry,JOU-6021,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-219.63,17114.64
+Truck,,2025-05-04,Journal Entry,JOU-9462,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-132.0,16982.64
+Truck,,2025-06-02,Journal Entry,JOU-496,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-253.26,16729.38
+Truck,,2025-07-03,Journal Entry,JOU-8420,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-223.21,16506.17
+Truck,,2025-08-01,Journal Entry,JOU-6184,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-252.74,16253.43
+Truck,,2025-09-03,Journal Entry,JOU-4935,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-109.02,16144.41
+Truck,,2025-01-01,Budget,BUD-01-238,Internal Planning,Budget for Q1 - Depreciation,Depreciation,3391.38,0.0
+Truck,,2025-04-01,Budget,BUD-02-873,Internal Planning,Budget for Q2 - Depreciation,Depreciation,3769.01,0.0
+Truck,,2025-07-01,Budget,BUD-03-132,Internal Planning,Budget for Q3 - Depreciation,Depreciation,4426.78,0.0
+Truck,,2025-10-01,Budget,BUD-04-444,Internal Planning,Budget for Q4 - Depreciation,Depreciation,2697.48,0.0
+Equipment,,2024-02-01,Journal Entry,JOU-8991,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-193.02,19806.98
+Equipment,,2024-03-03,Journal Entry,JOU-2103,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-288.92,19518.06
+Equipment,,2024-04-02,Journal Entry,JOU-9806,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-130.38,19387.68
+Equipment,,2024-05-02,Journal Entry,JOU-6015,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-137.56,19250.12
+Equipment,,2024-06-03,Journal Entry,JOU-4117,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-281.13,18968.99
+Equipment,,2024-07-03,Journal Entry,JOU-7916,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-136.71,18832.28
+Equipment,,2024-07-31,Journal Entry,JOU-814,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-147.96,18684.32
+Equipment,,2024-08-30,Journal Entry,JOU-1351,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-131.69,18552.63
+Equipment,,2024-09-28,Journal Entry,JOU-3204,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-187.83,18364.8
+Equipment,,2024-10-27,Journal Entry,JOU-477,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-109.26,18255.54
+Equipment,,2024-11-24,Journal Entry,JOU-6122,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-258.75,17996.79
+Equipment,,2024-12-27,Journal Entry,JOU-2602,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-284.47,17712.32
+Equipment,,2025-01-25,Journal Entry,JOU-460,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-273.37,17438.95
+Equipment,,2025-02-25,Journal Entry,JOU-95,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-259.53,17179.42
+Equipment,,2025-03-29,Journal Entry,JOU-7642,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-115.1,17064.32
+Equipment,,2025-04-28,Journal Entry,JOU-3421,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-257.81,16806.51
+Equipment,,2025-05-31,Journal Entry,JOU-5328,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-232.13,16574.38
+Equipment,,2025-06-27,Journal Entry,JOU-9200,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-233.66,16340.72
+Equipment,,2025-07-26,Journal Entry,JOU-9651,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-109.42,16231.3
+Equipment,,2025-08-22,Journal Entry,JOU-7306,"Preston, Williamson and Choi",Monthly Depreciation,Depreciation,-263.99,15967.31
+Equipment,,2025-01-01,Budget,BUD-01-132,Internal Planning,Budget for Q1 - Depreciation,Depreciation,4709.78,0.0
+Equipment,,2025-04-01,Budget,BUD-02-155,Internal Planning,Budget for Q2 - Depreciation,Depreciation,1034.54,0.0
+Equipment,,2025-07-01,Budget,BUD-03-420,Internal Planning,Budget for Q3 - Depreciation,Depreciation,4250.49,0.0
+Equipment,,2025-10-01,Budget,BUD-04-361,Internal Planning,Budget for Q4 - Depreciation,Depreciation,4972.03,0.0
+Accounts Payable (A/P),,2024-03-31,Bill,BIL-6914,Simmons PLC,Insurance Premium,Insurance,1379.31,21379.31
+Accounts Payable (A/P),,2024-06-29,Bill Payment,BIL-4869,Simmons PLC,Insurance Premium,Insurance,769.18,22148.49
+Accounts Payable (A/P),,2024-07-31,Bill,BIL-3859,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-169.55,21978.94
+Accounts Payable (A/P),,2024-08-13,Bill,BIL-8926,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,1223.3,23202.24
+Accounts Payable (A/P),,2024-11-12,Bill Payment,BIL-1974,Simmons PLC,Insurance Premium,Insurance,788.71,23990.95
+Accounts Payable (A/P),,2025-02-11,Bill,BIL-5983,Simmons PLC,Insurance Premium,Insurance,615.92,24606.87
+Accounts Payable (A/P),,2025-03-01,Bill Payment,BIL-7172,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,675.94,25282.81
+Accounts Payable (A/P),,2025-04-02,Bill Payment,BIL-2125,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,719.18,26001.99
+Accounts Payable (A/P),,2025-05-04,Bill,BIL-3537,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,12.98,26014.97
+Accounts Payable (A/P),,2025-08-03,Bill,BIL-4339,Simmons PLC,Insurance Premium,Insurance,827.81,26842.78
+Accounts Payable (A/P),,2025-10-29,Bill Payment,BIL-6718,Simmons PLC,Insurance Premium,Insurance,-153.39,26689.39
+Accounts Payable (A/P),,2026-01-26,Bill,BIL-833,Simmons PLC,Insurance Premium,Insurance,297.16,26986.55
+Accounts Payable (A/P),,2026-02-24,Bill Payment,BIL-1840,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,1163.0,28149.55
+Accounts Payable (A/P),,2026-03-31,Bill Payment,BIL-118,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,298.6,28448.15
+Accounts Payable (A/P),,2026-05-04,Bill,BIL-5799,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-477.8,27970.35
+Accounts Payable (A/P),,2026-07-30,Bill,BIL-4100,Simmons PLC,Insurance Premium,Insurance,-247.04,27723.31
+Accounts Payable (A/P),,2026-08-26,Bill,BIL-6595,"Harvey, Santos and French",Utility Expense,Utilities:Gas and Electric,-65.77,27657.54
+Accounts Payable (A/P),,2026-11-27,Bill Payment,BIL-4078,Simmons PLC,Insurance Premium,Insurance,-127.75,27529.79
+Accounts Payable (A/P),,2027-02-26,Bill,BIL-1481,Simmons PLC,Insurance Premium,Insurance,1352.34,28882.13
+Accounts Payable (A/P),,2027-05-27,Bill Payment,BIL-2539,Simmons PLC,Insurance Premium,Insurance,774.72,29656.85
+Accounts Payable (A/P),,2025-01-01,Budget,BUD-01-290,Internal Planning,Budget for Q1 - Utilities:Gas and Electric,Utilities:Gas and Electric,2126.35,0.0
+Accounts Payable (A/P),,2025-01-01,Budget,BUD-01-264,Internal Planning,Budget for Q1 - Insurance,Insurance,4061.51,0.0
+Accounts Payable (A/P),,2025-04-01,Budget,BUD-02-8,Internal Planning,Budget for Q2 - Utilities:Gas and Electric,Utilities:Gas and Electric,3954.05,0.0
+Accounts Payable (A/P),,2025-04-01,Budget,BUD-02-861,Internal Planning,Budget for Q2 - Insurance,Insurance,1373.84,0.0
+Accounts Payable (A/P),,2025-07-01,Budget,BUD-03-593,Internal Planning,Budget for Q3 - Utilities:Gas and Electric,Utilities:Gas and Electric,3784.38,0.0
+Accounts Payable (A/P),,2025-07-01,Budget,BUD-03-32,Internal Planning,Budget for Q3 - Insurance,Insurance,1484.44,0.0
+Accounts Payable (A/P),,2025-10-01,Budget,BUD-04-849,Internal Planning,Budget for Q4 - Utilities:Gas and Electric,Utilities:Gas and Electric,3045.95,0.0
+Accounts Payable (A/P),,2025-10-01,Budget,BUD-04-512,Internal Planning,Budget for Q4 - Insurance,Insurance,3920.2,0.0
