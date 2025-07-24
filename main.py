@@ -1,7 +1,10 @@
+import base64
+import io
 import os
 import re
 from typing import Any, Dict, List
 
+import pandas as pd
 from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,6 +15,7 @@ from openai import OpenAI
 from pydantic import BaseModel
 
 from qb import get_profit_and_loss, summarize_financials
+from scripts import variance
 
 # Load env vars
 load_dotenv()
@@ -28,7 +32,7 @@ client = OpenAI(api_key=openai_api_key)
 def ask_gpt_about_financials(financial_summary):
     prompt = f"""Here is a profit & loss summary: {financial_summary}
 
-Can you explain the business performance in plain English as if you're a CFO briefing a founder?"""
+Can you explain the business performance in plain English as if you're a CFO briefing a CEO?"""
 
     response = client.chat.completions.create(
         model=openai_model,
@@ -72,7 +76,7 @@ If the data shows financial information like revenue, expenses, or profits,
 explain the business implications. If it shows no data, explain what that means
 and suggest what they might want to look for instead.
 
-Keep the explanation conversational and actionable."""
+Keep the explanation actionable."""
 
         response = client.chat.completions.create(
             model=openai_model,
@@ -307,6 +311,45 @@ async def run_raw_sql(payload: SQLQueryRequest):
         return {"results": results, "explanation": explanation, "success": True}
     except Exception as e:
         return {"error": f"SQL execution failed: {str(e)}"}
+
+
+@app.get("/analyze")
+async def analyze_endpoint(year: int = 2025):
+    try:
+        gl_path = "clean_data/qbo_general_ledger.csv"
+        account_path = "clean_data/qbo_account_list.csv"
+
+        df_gl = variance.load_gl(gl_path)
+        df_accounts = variance.load_account_list(account_path)
+        df_enriched = variance.enrich_with_account_metadata(df_gl, df_accounts)
+
+        variance_df = variance.budget_vs_actual(df_enriched, year)
+
+        variance_df = variance_df.replace({pd.NA: 0, float("inf"): 0, float("-inf"): 0}).fillna(0)
+
+        # Fix mixed-type columns
+        for col in variance_df.columns:
+            if variance_df[col].dtype == "object":
+                variance_df[col] = variance_df[col].astype(str)
+
+        output = io.BytesIO()
+        quarter = variance_df["quarter"].iloc[0] if not variance_df.empty else "Q?"
+        plot_path = f"outputs/budget_vs_actual_{quarter}.png"
+        variance.plot_variance(variance_df, "outputs")
+
+        with open(plot_path, "rb") as img_file:
+            img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
+
+        prompt = f"""Here is a variance table:\n{variance_df.to_string()}\n\nSummarize key insights:\n- Which accounts were over or under budget?\n- Total variance impact\n- Any notable trends in the year {year}.\n"""
+        summary = ask_gpt_about_financials(prompt)
+
+        return {
+            "summary": summary,
+            "variance_table": variance_df.to_dict(orient="records"),
+            "chart_base64": img_base64,
+        }
+    except Exception as e:
+        return {"error": str(e)}
 
 
 if __name__ == "__main__":

@@ -1,4 +1,3 @@
-# scripts/variance.py
 import os
 
 import matplotlib.pyplot as plt
@@ -51,7 +50,15 @@ def budget_vs_actual(df: pd.DataFrame, year: int) -> pd.DataFrame:
     )
     merged = merged.merge(metadata, on="split", how="left")
 
+    # Ensure no NaN or inf values before calculating variance
+    merged["actual"] = merged["actual"].replace([float("inf"), float("-inf")], 0).fillna(0)
+    merged["budget"] = merged["budget"].replace([float("inf"), float("-inf")], 0).fillna(0)
+
     merged["variance"] = merged["actual"] - merged["budget"]
+
+    # Clean up entire dataframe to ensure JSON serialization compatibility
+    merged = merged.replace({pd.NA: 0, float("inf"): 0, float("-inf"): 0}).fillna(0)
+
     return merged
 
 

@@ -1,10 +1,12 @@
+import base64
+
 import requests
 import streamlit as st
 
-st.title("🧠 Finance Copilot")
+st.title("Finance Copilot")
 st.write("Ask finance questions in plain English — get SQL + answers.")
 
-query = st.text_input("🔍 Ask a question about your finances:")
+query = st.text_input("Ask a question about your finances:")
 
 if query:
     with st.spinner("Contacting GPT Copilot..."):
@@ -42,11 +44,11 @@ if query:
 
                 # Display initial query result
                 if "raw_result" in data and data["raw_result"]:
-                    st.markdown("### 📋 Initial Result from GPT-generated SQL")
+                    st.markdown("### Initial Result from GPT-generated SQL")
                     st.dataframe(data["raw_result"])
 
                 if "explanation" in data:
-                    st.markdown("### 📊 Explanation")
+                    st.markdown("### Explanation")
                     st.write(data["explanation"])
 
         except requests.exceptions.Timeout:
@@ -56,8 +58,28 @@ if query:
         except Exception as e:
             st.error(f"⚠️ Request failed: {e}")
 
-
 print(
     "👉 Sending GET request with params:",
     {"query": query} if "query" in locals() else "No query yet",
 )
+
+if st.button("Run Variance Analysis"):
+    with st.spinner("Computing budget vs actual..."):
+        try:
+            analysis = requests.get("http://localhost:8000/analyze").json()
+
+            if "error" in analysis:
+                st.error(f"❌ Analysis Error: {analysis['error']}")
+            else:
+                st.success("✅ Analysis Complete")
+
+                st.markdown("### GPT Summary")
+                st.write(analysis["summary"])
+
+                st.markdown("### Variance Chart")
+                st.image(base64.b64decode(analysis["chart_base64"]))
+
+                st.markdown("### Variance Table")
+                st.dataframe(analysis["variance_table"])
+        except Exception as e:
+            st.error(f"⚠️ Failed to run variance analysis: {e}")
